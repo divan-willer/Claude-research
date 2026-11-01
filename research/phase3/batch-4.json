@@ -1,0 +1,250 @@
+[
+  {
+    "id": "C16",
+    "name": "EU AI Act starter compliance pack for small companies [SEED 3]",
+    "demand": 2,
+    "competition": 1,
+    "wtp": 2,
+    "buildability": 4,
+    "distribution": 3,
+    "growth": 2,
+    "total": 14,
+    "verdict": "REJECT",
+    "rationale": "Most crowded compliance niche checked: Etsy kits run $2.95-$499 (incl. '117 documents' packs, Art. 4 literacy and Art. 50 transparency kits) and one AI-generated Gumroad catalogue has 42 'AI Act' items. Omnibus softened Art. 4, no EU-level fine, no enforcement found, and the SMB-relevant Art. 50 date (2 Aug 2026) has already passed. Supply chasing a headline, no buyer pain.",
+    "best_scoped_version": "none standalone; at most a 2-page AI-use policy + AI-literacy log as a free lead magnet or bundle sweetener in a vertical AI-policy kit (C30)",
+    "target_buyer": "EU SMEs deploying off-the-shelf AI tools (no forcing function; lighter Art. 50 role than providers)",
+    "demand_links": [
+      "https://reddit.sentinel-team.org/posts/1t3gtml/snapshots/2026-05-07T16%3A03%3A41.170452Z - single Reddit-mirror anecdote that companies are 'sleeping on Article 4' (May 2026, Phase 1, WEAK)",
+      "No buyer threads found this session; all visible activity is seller-side (Nov 2026)"
+    ],
+    "competitors": [
+      "Etsy AI Act kits (multiple sellers) - ~$2.95 to $499, incl. EUR109 5-template starter kit, 117-document pack, Art. 4 PowerPoint/trainer kits, Art. 50 disclosure kits - no review counts visible - https://www.etsy.com/market/compliance_kits",
+      "Etsy ComplianceDocs shop - price not shown - no sales visible - https://www.etsy.com/shop/ComplianceDocs",
+      "Etsy 2026 AI compliance bundle for EU and US - $12.99-$131.27 range across kits (Phase 1) - no sales visible - https://www.etsy.com/listing/4430787946/2026-ai-compliance-bundle-for-eu-and-us",
+      "ghostcorpnet Gumroad catalogue - 42 items matching 'AI Act', $19-49 - sales unknown, mass-generated - https://raw.githubusercontent.com/koalstingkdelaney-gif/kestrelattice/HEAD/ai/catalog.json",
+      "mininglife1 EU AI Act readiness kit (Gumroad) - price not shown - no sales visible - https://mininglife1.gumroad.com/l/eu-ai-act-readiness-kit"
+    ],
+    "free_alternatives": [
+      "EU AI Office living repository of AI-literacy practices (examples, not templates; no presumption of compliance) - https://digital-strategy.ec.europa.eu/en/library/living-repository-foster-learning-and-exchange-ai-literacy",
+      "aiactblog.nl free templates - https://www.aiactblog.nl/en/templates",
+      "Security Scientist free EU AI Act gap assessment (Excel) - https://templates.securityscientist.net/t/eu-ai-act-gap-assessment-template/",
+      "AIPIA AI Pact pledge: free SME AI-literacy material 7 Sep 2026-31 Dec 2027 - https://digital-skills-jobs.europa.eu/en/impact-shapers/pledges/aipia-open-ai-literacy-programme-2026-2027",
+      "59 'eu ai act template' GitHub repos (gh api, 1 Nov 2026)"
+    ],
+    "kill_reasons": [
+      "FATAL: hundreds of near-identical mass-produced kits on Etsy/Gumroad plus free templates",
+      "Duty softened by Digital Omnibus; no EU fine for Art. 4; no enforcement found (Phase 1 REG#13)",
+      "No forcing function for SMB deployers in next 6 months (2 Dec 2026 marking date is provider-side; high-risk moved to Dec 2027/Aug 2028)",
+      "Legal-claims risk MEDIUM: post-Omnibus content goes stale; 27-jurisdiction legal templates"
+    ],
+    "price_recommendation": "Do not sell standalone; $0-10 perceived value inside a bundle",
+    "launch_channels": [
+      "Etsy search - market pages exist but saturated; Etsy AI-disclosure rules NOT VERIFIED this session - https://www.etsy.com/market/compliance_kits",
+      "Reddit - no buyer community identified; rules NOT VERIFIED - n/a"
+    ],
+    "biggest_risk": "Zero sales among a hundred lookalikes",
+    "cheap_test": "None worth running; Etsy flooded and Phase 1 GitHub data shows supply plateau in Q3 2026",
+    "build_notes": "Static docs, ~4h; hard part is legal accuracy after Reg. (EU) 2026/1744. Irrelevant because the product cannot win."
+  },
+  {
+    "id": "C17",
+    "name": "Shopify/Wix accessibility self-audit & fix kit [SEED 4]",
+    "demand": 4,
+    "competition": 3,
+    "wtp": 3,
+    "buildability": 4,
+    "distribution": 3,
+    "growth": 4,
+    "total": 21,
+    "verdict": "VIABLE",
+    "rationale": "Real pain: merchants post panic threads on Shopify Community after law-firm letters, and ADA web suits stay high (2,045 in H1 2026, ~79% e-commerce). But the Wix half is absorbed by Wix's free WCAG 2.2-based Accessibility Wizard (updated Oct 2026), W3C offers a free statement generator, and Etsy already lists a 'Shopify & WooCommerce Accessibility Kit' and an 'ADA Compliant Website' bundle. Only a Shopify-only, letter-response workbook that hands off to counsel has a gap.",
+    "best_scoped_version": "'Shopify ADA Letter Response & Fix Workbook' (Shopify only): demand-letter triage checklist (preserve, send to counsel, what not to say), Shopify-admin click-path fixes for the usual letter allegations (alt text, icon buttons, form labels, contrast, focus/keyboard traps in cart drawer), dated remediation log in Google Sheets, accessibility statement template; never says 'compliant'",
+    "target_buyer": "US Shopify store owner ($100k-$2M/yr) who just received or fears an ADA demand letter; secondary: freelancer/agency asked to fix it fast",
+    "demand_links": [
+      "https://community.shopify.com/t/need-help-got-a-letter-from-a-lawfirm-stating-my-site-is-not-compliance-for-blind-poeple/575477 - merchant panic after law-firm letter (date not shown)",
+      "https://community.shopify.com/t/ada-accessibility-lawsuits/351516/14 - long thread; letters cite alt text, unlabeled buttons/forms, contrast, keyboard; 'Most are templates' (date not shown)",
+      "https://community.shopify.com/t/ada-compliance-lawsuit-company-to-help/230778 - merchant sued, asking for help (older)",
+      "https://community.shopify.com/c/shopify-discussions/i-have-a-shopify-store-and-i-ve-just-been-sued-under-the-ada/td-p/684774 - merchant sued under ADA (older, legacy URL)",
+      "https://community.shopify.com/t/deep-link-my-accessibility-pop-up/607500/2 - merchants still reaching for widgets (recent thread ID, date not shown)",
+      "https://www.ecomback.com/ada-website-lawsuits-recap-report/2026-mid-year-ada-website-lawsuit-report - 2,045 ADA web suits H1 2026, +1.54% YoY (Phase 1, mid-2026)",
+      "https://testparty.ai/blog/ada-demand-letter-shopify-merchant-guide - vendor guides targeting Shopify letter recipients (2026, vendor)"
+    ],
+    "competitors": [
+      "The Creator's Guide to an ADA Compliant Website bundle (Etsy) - price not shown; listing says attorney-drafted, new for 2025, 1yr updates - no reviews visible - https://www.etsy.com/listing/4296587607/the-creators-guide-to-an-ada-compliant",
+      "Shopify & WooCommerce Accessibility Kit + keyboard-test audit PDF + statement templates (Etsy, several sellers) - few dollars to ~$90 - no reviews visible - https://www.etsy.com/market/accessibility_audit",
+      "Uncover Accessibility knowledge base (Gumroad) - price not shown - generic WCAG, not Shopify - https://uncover.gumroad.com/l/uncoveraccessibility",
+      "Accessibility Made Human guide (Gumroad) - price not shown - generic WCAG - https://mxmdigital.gumroad.com/l/ux-accessibility-guide",
+      "Chris Yoong home-page accessibility review (Gumroad service) - GBP99 - service not kit - https://chrisyoong.gumroad.com/l/accessibility-review",
+      "Overlays accessiBe/UserWay - $49-149/mo (Phase 1, vendor-sourced) - undermined by FTC accessiBe order - https://technologylaw.fkks.com/post/102jsmj/ftc-finds-website-overlay-tool-failed-to-deliver-accessibility-promises"
+    ],
+    "free_alternatives": [
+      "Wix Accessibility Wizard: free built-in WCAG 2.2 scan with Detected issues + Manual tasks, scans Stores pages (updated 5 Oct 2026) - https://support.wix.com/en/article/accessibility-about-the-accessibility-wizard-5119725",
+      "W3C WAI free accessibility statement generator - https://www.w3.org/WAI/news/2018-11-29/develop-accessibility-statement/ (repo https://github.com/w3c/wai-statements)",
+      "GitHub: 122 'shopify accessibility' repos incl. kgelster/ecom-a11y-audit (12 stars, Aug 2026) and tanujrajputdev/shopify-theme-audit-skill (44 stars, Claude Code skill); 85 'accessibility statement' repos created in 2026 (gh api, 1 Nov 2026)",
+      "Free Claude accessibility-audit skill (Phase 1) - https://github.com/creativedeals/free-claude-skill-accessibility-audit"
+    ],
+    "kill_reasons": [
+      "Wix half absorbed by Wix's free platform-native Accessibility Wizard",
+      "Direct Shopify accessibility kits already on Etsy",
+      "Legal-claims risk HIGH: FTC $1M/20-yr order vs accessiBe for 'makes you compliant' claims; demand-letter guide can drift into legal advice. Mitigate with organiser-plus-attorney-handoff framing and no compliance or lawsuit-protection claims",
+      "Panicked buyers may buy a lawyer or an app instead of a PDF"
+    ],
+    "price_recommendation": "$29 on Etsy; $49 'letter received' edition with remediation log and attorney hand-off pack",
+    "launch_channels": [
+      "Etsy search - 'accessibility audit' / 'accessibility checklist' market pages exist; Etsy AI-disclosure rules NOT VERIFIED this session - https://www.etsy.com/market/accessibility_audit",
+      "Shopify Community forum - developer-community code discourages blatant self-promotion, promo only in designated areas (third-party copy); merchant-forum rules NOT VERIFIED - https://cleverence.com/articles/shopify-dev-documentation/code-of-conduct-shopify-developer-community-6893",
+      "r/shopify - NOT VERIFIED - n/a",
+      "r/ecommerce - bans self-promotion even if free (mirror snapshot summary) - https://reddit.sentinel-team.org/subreddits/ecommerce/snapshots/2025-12-20T08%3A30%3A17.413923Z",
+      "r/ecommercemarketing - auto-removes self-promotion (Feb 2026 snapshot) - https://redlib.groet-infra.nl/r/ecommercemarketing/"
+    ],
+    "biggest_risk": "Panicked merchants buy a lawyer or app, not a $29 PDF; calm merchants never search for it",
+    "cheap_test": "List the $29 Shopify-only version on Etsy and answer 5 Shopify Community letter threads with free steps (no link) over 14 days; kill if <2 sales or <20 favourites",
+    "build_notes": "Static kit: Docs/PDF workbook, Google Sheets remediation log, statement template, ~6h. Verify click paths in a free Shopify dev store on Dawn (doable but tight). Drop Wix entirely."
+  },
+  {
+    "id": "C18",
+    "name": "A2P 10DLC approval kit",
+    "demand": 4,
+    "competition": 2,
+    "wtp": 3,
+    "buildability": 5,
+    "distribution": 3,
+    "growth": 4,
+    "total": 21,
+    "verdict": "VIABLE",
+    "rationale": "Real recurring pain: Zoom/Sinch community threads (one user rejected 20+ times), a thriving Fiverr 'fix my A2P rejection' gig market, and 174 'sms privacy policy' GitHub repos created since Twilio's 30 Jun 2026 mandate. But free supply is strong (GoHighLevel help article with the required statements, Hot Prospector's free 6-page generator, MessageDesk's free checker), and a paid Gumroad GHL A2P guide with an 'Approval Prep Kit' already exists. Only an agency-facing multi-vertical pack with a current rejection-code fix table is defensible.",
+    "best_scoped_version": "'A2P 10DLC Agency Pack (GoHighLevel/Twilio)': 10 vertical campaign-description and sample-message sets, SMS privacy/terms clause library, opt-in checkbox copy plus screenshot checklist, current Twilio/TCR rejection-code to fix table (incl. 2026 granular codes), brand-data consistency checklist (legal name, EIN, domain email), client intake form; 'no approval guaranteed, not legal advice'",
+    "target_buyer": "GoHighLevel/white-label agency owner registering 5-50 client sub-accounts; secondary: DIY SMB owner on Twilio/GHL",
+    "demand_links": [
+      "https://community.zoom.com/t5/Zoom-Phone-System/10DLC-Registration-failed-over-and-over/m-p/191089 - campaign rejected 20+ times (Phase 1, 2026)",
+      "https://community.zoom.com/t5/Zoom-Phone-System/10DLC-SMS-Campaign-Rejected-due-to-Brand-name-not-consistent/m-p/218393 - brand-name mismatch rejection (Phase 1, date not shown)",
+      "https://community.sinch.com/t5/10DLC/Why-was-my-10DLC-campaign-rejected/m-p/15408 - 'why was my campaign rejected' (Phase 1, date not shown)",
+      "https://fiverr.com/prada_os/setup-ghl-a2p-10dlc-fix-rejection-and-sms-compliance - one of 5+ Fiverr gigs selling A2P rejection fixes (2026)",
+      "gh api search/repositories 'sms privacy policy created:>=2026-06-30' = 174 and '10dlc created:>=2026-06-30' = 80, e.g. LachmanConsultants/sms-policy (2 Jul 2026), jessmohler-del/sms-privacy 'SMS privacy policy for Twilio' (15 Sep 2026) - small senders hosting SMS policy pages after the Twilio mandate (Nov 2026)",
+      "https://www.ghlscaleup.com/blog/a2p-error-codes-explained - Twilio granular rejection codes from 23 Mar 2026 (2026, vendor)"
+    ],
+    "competitors": [
+      "The No-Guesswork A2P Setup for GoHighLevel (Gumroad) - price not shown - includes Approval Prep Kit, opt-in templates, STOP/DND test pack; ratings not shown - https://theapexintelligence.gumroad.com/l/whfrb",
+      "Twilio A2P 10DLC Registration Helper (Etsy) - price not shown - only A2P-specific Etsy listing found; reviews not shown - https://www.etsy.com/listing/4435251968/twilio-a2p-10dlc-registration-helper-sms",
+      "Fiverr A2P registration/fix gigs (5+ sellers) - prices not shown - service, not kit - https://fiverr.com/workwithahtsham/fix-gohighlevel-twilio-a2p-10dlc-sms-registration",
+      "Agency A2P setups - $799-1,500 (Phase 1) - service - https://autogencrm.com/?p=16408"
+    ],
+    "free_alternatives": [
+      "GoHighLevel help: A2P Opt-In Form Privacy Policy and T&C Guidelines, with required statements and sample pages (modified 21 Jan 2026) - https://help.gohighlevel.com/support/solutions/articles/155000001426-a2p-opt-in-form-privacy-policy-and-terms-and-conditions-guidelines",
+      "Hot Prospector free funnel generator: 6 pages + SMS consent language for GHL forms - https://hotprospector.com/a2p-compliance-guide/funnel-generator",
+      "MessageDesk free AI privacy-policy generator/checker for A2P 10DLC - https://www.messagedesk.com/free-tools/privacy-policy-generator",
+      "GHL Scale Up free opt-in language templates - https://www.ghlscaleup.com/blog/a2p-opt-in-language-templates",
+      "Twilio error-code docs, e.g. https://live.docs.dev.twilio.com/docs/api/errors/30971.md",
+      "49 'a2p 10dlc privacy policy' GitHub repos (gh api, 1 Nov 2026)"
+    ],
+    "kill_reasons": [
+      "Strong free alternatives cover the privacy policy and opt-in copy",
+      "Carriers reject for brand-data reasons (EIN/name mismatch, free email domain, unauthorised contact) that no template fixes",
+      "Near-identical GitHub SMS-policy repos suggest buyers already DIY with free AI",
+      "Legal-claims risk MEDIUM-HIGH: TCPA statutory damages attach to consent language; 'guaranteed approval' claims are false by construction"
+    ],
+    "price_recommendation": "$29 single-business edition; $79 agency licence (unlimited client sub-accounts)",
+    "launch_channels": [
+      "Gumroad - a direct competitor listing shows the channel is used for this - https://theapexintelligence.gumroad.com/l/whfrb",
+      "GoHighLevel Facebook groups / GHL community - NOT VERIFIED - n/a",
+      "r/gohighlevel - NOT VERIFIED (no rules page returned) - n/a",
+      "Etsy - one A2P listing only, so low search traffic likely; NOT VERIFIED - https://www.etsy.com/listing/4435251968/twilio-a2p-10dlc-registration-helper-sms",
+      "Fiverr productised review gig using the kit - Fiverr ToS NOT VERIFIED - https://www.fiverr.com/s/ljaRABj"
+    ],
+    "biggest_risk": "Agencies use free GHL docs plus the Hot Prospector generator and never pay",
+    "cheap_test": "Publish the rejection-code to fix table as a free Gumroad lead magnet with an upsell to the $79 agency pack; post in 2 GHL Facebook groups after checking rules; kill if <50 downloads and 0 upsells in 14 days",
+    "build_notes": "Static kit: Docs clause library, Sheets code table, vertical sample-message sets, intake form; ~6h. Source every error code to Twilio docs and date-stamp 'current as of Nov 2026'. Approval cannot be tested in a day; claim none."
+  },
+  {
+    "id": "C19",
+    "name": "UK data-protection complaints procedure pack (DUAA)",
+    "demand": 2,
+    "competition": 2,
+    "wtp": 2,
+    "buildability": 5,
+    "distribution": 3,
+    "growth": 2,
+    "total": 16,
+    "verdict": "WEAK",
+    "rationale": "The duty is real and universal from 19 Jun 2026 (complaints process plus 30-day acknowledgement, per many law firms and the ICO), but no buyer was found asking for help. The ICO publishes a free small-business guide suggesting reusable template letters, free sample procedures circulate (ComplaintsDesk, public PDFs), and there is no standalone penalty. A one-page procedure plus two letters is hard to sell alone.",
+    "best_scoped_version": "GBP9 'UK DUAA complaints add-on' (procedure, acknowledgement and outcome letters, Sheets log with 30-day timer, website 'how to complain' snippet), ideally bundled into a broader UK GDPR small-business pack on Etsy UK",
+    "target_buyer": "UK micro-businesses, charities and clubs that already buy UK GDPR template packs on Etsy",
+    "demand_links": [
+      "No buyer threads found (Reddit search returned only law firms and vendors, Nov 2026)",
+      "https://www.comparethecloud.net/news/uk-smes-have-three-weeks-to-comply-with-new-data-complaint-rules-under-the-duaa - news: SMEs have three weeks to comply (May/Jun 2026)",
+      "https://privacymatters.dlapiper.com/2026/06/uk-new-complaints-handling-rules-under-duaa-take-effect-on-19-june-2026-are-you-ready/ - law firm: rules in force 19 Jun 2026 (Jun 2026)",
+      "https://www.rpclegal.com/snapshots/data-protection/autumn-2026/new-uk-statutory-data-protection-complaints-regime-now-in-force/ - law firm: regime now in force (autumn 2026)",
+      "https://ico.org.uk/for-organisations/advice-for-small-organisations/news-blogs-and-events/blogs/five-simple-ways-to-make-a-data-protection-complaint-easier-to-handle/ - ICO SME blog (regulator, not buyer demand)"
+    ],
+    "competitors": [
+      "UK GDPR data protection policy template (Etsy) - price not shown - complaints only a section - https://www.etsy.com/listing/4525291416/uk-gdpr-data-protection-policy-template",
+      "UK GDPR data protection policy template, employee & customer (Etsy) - price not shown - no reviews visible - https://www.etsy.com/listing/1667069653/uk-gdpr-data-protection-policy-template",
+      "Etsy 'gdpr template uk' market (several sellers; complaint-specific listings 'few') - prices not shown - https://www.etsy.com/market/gdpr_template_uk"
+    ],
+    "free_alternatives": [
+      "ICO: How to deal with data protection complaints you receive as a small business - https://ico.org.uk/for-organisations/sme-web-hub/how-to-deal-with-data-protection-complaints-you-receive-as-a-small-business",
+      "ComplaintsDesk free DUAA procedure template - https://complaintsdesk.pages.dev/duaa-complaints-procedure",
+      "Business Wales guidance - https://businesswales.gov.wales/news-and-blog/dealing-data-protection-complaints-a-small-business",
+      "Public sample procedure PDF - https://www.everywhen.co.uk/media/3uqbeyhh/data-protection-complaints-procedure.pdf",
+      "iubenda six-step guide - https://www.iubenda.com/en/blog/uks-six-step-guide-on-handling-data-protection-complaints/"
+    ],
+    "kill_reasons": [
+      "Free ICO guidance plus free templates cover most of the job",
+      "Deadline passed; no standalone offence or penalty (per law-firm summary), so no urgency",
+      "No buyer demand found",
+      "Legal-claims risk LOW (procedural document mirroring ICO guidance)"
+    ],
+    "price_recommendation": "GBP7-12 standalone, or inside a GBP19-29 UK GDPR small-business bundle",
+    "launch_channels": [
+      "Etsy UK - 'gdpr template uk' market page exists; ranking NOT VERIFIED - https://www.etsy.com/market/gdpr_template_uk",
+      "r/smallbusinessuk / r/UKPersonalFinance - NOT VERIFIED - n/a"
+    ],
+    "biggest_risk": "Nobody searches for 'complaints procedure' specifically",
+    "cheap_test": "GBP9 Etsy UK listing titled with 'DUAA 2025 complaints procedure'; kill after 30 days with 0 sales",
+    "build_notes": "~2-3h: Docs, Sheets log with 30-day due-date formula, HTML snippet. Trivial."
+  },
+  {
+    "id": "C20",
+    "name": "Auto-renewal compliance kit for small subscription sellers (CA/NY)",
+    "demand": 1,
+    "competition": 2,
+    "wtp": 2,
+    "buildability": 5,
+    "distribution": 2,
+    "growth": 2,
+    "total": 14,
+    "verdict": "REJECT",
+    "rationale": "No buyer demand surfaced; every result was a 2025 law-firm alert. The regulated mechanics are built into billing platforms: Stripe's FAQ documents renewal reminders, Manage Subscription links and near one-click cancellation for the FTC/CA rules. Creators on merchant-of-record platforms likely don't control checkout or cancellation at all (inference, not verified). What remains is a few paragraphs of disclosure copy.",
+    "best_scoped_version": "none standalone; at most a subscription-terms plus renewal-reminder email page inside a creator legal bundle",
+    "target_buyer": "Creators and small membership/SaaS sellers on Stripe, Kajabi or Skool (not observed asking for this)",
+    "demand_links": [
+      "No buyer threads found (Reddit/creator search returned only law firms, Nov 2026)",
+      "https://www.cooley.com/news/insight/2025/2025-06-04-california-automatic-renewal-law-amendments-take-effect-on-july-1-2025 - law-firm alert on CA ARL amendments (Jun 2025, OLD)",
+      "https://www.mondaq.com/unitedstates/consumer-law/1769282/that-free-trial-might-cost-you-automatic-renewal-litigation-on-the-rise-in-ca - CA ARL litigation rising, larger defendants (Phase 1)"
+    ],
+    "competitors": [
+      "Etsy subscription agreement templates, one advertising 'State-ARL-aware' cancel-by-date and price-notice terms - prices not shown - no reviews visible - https://www.etsy.com/market/subscription_contract",
+      "Subscription Service Agreement DOC/PDF (Etsy) - price not shown - no reviews visible - https://www.etsy.com/listing/4493950129/subscription-service-agreement-doc-pdf"
+    ],
+    "free_alternatives": [
+      "Stripe Billing: renewal reminder emails, subscription-management links, near one-click cancellation explicitly for FTC/CA rules - https://support.stripe.com/questions/faq-ftc-california-subscription-law-changes-require-billing-updates",
+      "Stripe customer emails docs - https://docs.stripe.com/billing/revenue-recovery/customer-emails?locale=en-US",
+      "GitHub GerardoRdz96/reclause: free educational ARL/negative-option scanner (Jun 2026)",
+      "GitHub checkbox-site/auto-renewal-laws (created 1 Nov 2026)"
+    ],
+    "kill_reasons": [
+      "FATAL: core mechanics (cancellation, reminders, management links) absorbed by billing platforms; Stripe markets them for CA/FTC rules",
+      "No buyer demand evidence",
+      "No dated forcing function: CA/NY laws already in force; FTC rule only at ANPRM stage",
+      "Legal-claims risk MEDIUM: ARL class actions are statutory; wrong disclosure copy could hurt buyers"
+    ],
+    "price_recommendation": "Do not sell; $0-10 perceived value inside a bundle",
+    "launch_channels": [
+      "No clear channel; creators don't browse Etsy/Gumroad for compliance - n/a",
+      "Indie Hackers / creator subreddits - NOT VERIFIED - n/a"
+    ],
+    "biggest_risk": "Zero demand",
+    "cheap_test": "Not worth one",
+    "build_notes": "~3h of static docs; easy but pointless."
+  }
+]

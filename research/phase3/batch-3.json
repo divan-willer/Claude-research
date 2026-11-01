@@ -1,0 +1,262 @@
+[
+  {
+    "id": "C11",
+    "name": "\"Get found by AI\" kit for local service businesses (seed 2, re-scoped)",
+    "demand": 2,
+    "competition": 1,
+    "wtp": 2,
+    "buildability": 4,
+    "distribution": 3,
+    "growth": 3,
+    "total": 15,
+    "verdict": "WEAK",
+    "rationale": "The traffic shift is real, but this is one of the most crowded corners of the 2026 info-product market. Etsy already sells GEO and 'get found by AI' guides at about $1-$30, Gumroad has playbooks and agency kits, there are at least 6 free AI-visibility checkers (including BrightLocal's location-level one), a 25k-star free Claude SEO/GEO skill, and Anthropic's free small-business plugin ships an seo-ai-visibility skill. I found no local owner asking for this; the results were vendor blogs.",
+    "best_scoped_version": "Don't sell it standalone. Fold it into C12 as a bonus module: 'Get recommended on Google Maps & ChatGPT' for one trade. Include a GBP attribute checklist, a NAP-consistency sheet, a LocalBusiness JSON-LD snippet and a monthly 'ask the AI' self-test sheet. No llms.txt and no ranking promises.",
+    "target_buyer": "Owner-operator of a 1-10-person HVAC, plumbing or electrical company who manages their own Google Business Profile. Secondary: a freelancer managing a few such profiles.",
+    "demand_links": [
+      "https://reddit.sentinel-team.org/posts/1stc10m/snapshots/2026-04-25T00%3A47%3A11.009274Z - mirror post noting most small businesses checked were invisible in ChatGPT; likely a marketer, not a buyer (Apr 2026)",
+      "https://www.bccinteractive.com/blog/local-ai-search-statistics/ - relayed BrightLocal survey: 45% of US consumers used gen-AI for local recommendations; consumer side, not owner demand (2026, Phase 1)",
+      "https://www.humblehelp.studio/blog/chatgpt-wont-recommend-your-business-fix - one of many agency/vendor blogs; no owner threads surfaced (2026)",
+      "https://webzum.com/blog/how-to-get-recommended-by-chatgpt - vendor blog, same pattern (2026)"
+    ],
+    "competitors": [
+      "Etsy 'AI SEO/GEO Course for Small Business, Get Found in AI Search, Local SEO/GEO Guide and Workbook' and similar listings - ~$1-$30, often discounted - sales counts not visible - https://www.etsy.com/market/chatgpt_seo",
+      "Etsy Local SEO Workbook (GBP) - ~$15.99 - sales not visible - https://www.etsy.com/market/google_business_profile",
+      "Etsy 'Get Found by ChatGPT + Claude' prompt pack - ~$5 - sales not visible - https://www.etsy.com/market/google_business_profile",
+      "GEO Playbook (167 tactics) - price not shown - no ratings visible - https://tanguykeyzer.gumroad.com/l/ssjwve",
+      "AI Agency Launch Kit (11 geo-* skills + LocalBusiness JSON-LD) - price not shown - agency-facing - https://modernwebseo.gumroad.com/l/ai-agency-launch-kit",
+      "GEO Performance Dashboard - price not shown - GA4 AI referral tracking - https://datmark.gumroad.com/l/ai-traffic-dashboard",
+      "genxops GEO starter kit - $19 - no ratings (Phase 1) - https://genxops.gumroad.com/l/geo_for_smbs",
+      "AEO Starter Kit - EUR 39 - no ratings (Phase 1) - https://aeo-starter-kit.pages.dev/"
+    ],
+    "free_alternatives": [
+      "BrightLocal Local AI Visibility Checker (Google AI Mode + ChatGPT, location-level) - https://www.brightlocal.com/free-local-seo-tools/local-ai-visibility-checker/",
+      "Birdeye AI Visibility Checker - https://birdeye.com/ai-visibility-checker/",
+      "Insites free AI visibility audit - https://insites.com/resources/free-ai-visibility-audit/",
+      "Zarla AI assistant checker (Aug 2026) - https://www.zarla.com/whats-new/2026-08-24-see-what-ai-assistants-say-about-your-business",
+      "HubSpot AI Search Grader and Ahrefs AI Visibility Checker (Phase 1)",
+      "Google Search Console gen-AI reports and Bing AI Performance, both with official docs",
+      "AgriciDaniel/claude-seo (25,479 stars), Ryze-AI-Adgent/open-seo-mcp-skills (8,538), Auriti-Labs/geo-optimizer-skill (1,255), leopard627/fire-your-seo-agency (987)",
+      "At least 5 free LocalBusiness JSON-LD generators on GitHub (Jul-Oct 2026), plus free local-SEO/GBP Claude skills",
+      "Anthropic Claude for Small Business plugin: seo-ai-visibility skill (Phase 1)"
+    ],
+    "kill_reasons": [
+      "Free graders plus a free official Anthropic skill cover 'check and fix my AI visibility'",
+      "Etsy/Gumroad price anchors are $1-$19, and no rated GEO kit was found",
+      "Results are unprovable: AI answers vary between runs (29% overlap, relayed)",
+      "Etsy's Oct 2026 rule against AI-generated functional/instructional guides puts a Claude-written playbook at risk on Etsy"
+    ],
+    "price_recommendation": "$15-19 standalone; better as a bonus inside C12 to justify $19-29",
+    "launch_channels": [
+      "Etsy - local_seo/chatgpt_seo/google_business_profile market pages show buyer search; AI use must be disclosed and AI-generated functional guides and prompt bundles are prohibited - https://www.etsy.com/seller-handbook/article/1522733284810",
+      "r/smallbusiness - self-promotion only in the weekly 'Promote your business' thread; sub is Q&A (2024 mirror copies; current sidebar NOT VERIFIED) - https://lr.in.psf.lt/r/smallbusiness/comments/1bn1bpy/promote_your_business_week_of_march_25_2024",
+      "r/HVAC and trade Facebook groups - NOT VERIFIED - n/a"
+    ],
+    "biggest_risk": "Nobody pays for a guide when free graders and free AI give the same advice.",
+    "cheap_test": "Bundle it into C12 and see whether the bundle sells. If it must stand alone, list a $15 Etsy version for one trade and kill it at fewer than about 150 views and 0 sales in 14 days.",
+    "build_notes": "PDF playbook, Sheets checklist, single-file HTML JSON-LD generator, and a GSC/Bing AI-report walkthrough. The walkthrough needs screenshots from a property with AI impressions, which the founder may not have and is hard to fit into a day. Content must be human-edited, with an AI disclosure on Etsy."
+  },
+  {
+    "id": "C12",
+    "name": "FTC-compliant review-request kit",
+    "demand": 3,
+    "competition": 2,
+    "wtp": 2,
+    "buildability": 5,
+    "distribution": 4,
+    "growth": 3,
+    "total": 19,
+    "verdict": "VIABLE",
+    "rationale": "This is the only item in the batch that rides existing Etsy buyer search: Etsy has market pages for google_review_card_templates, review_request, request_review_card and google_review_printable. Against it: the card layer is a $1-$6 commodity, and Google now gives every business a free review link and QR code with policy text. The opening is the compliant scripts and policy layer (ask everyone with no gating, no incentives, staff-review disclosure); I found nothing that sells that as a standalone. Modest and low-ticket, not a breakout.",
+    "best_scoped_version": "'Google Review Kit for [HVAC/plumbing], FTC- and Google-policy-safe'. Contents: 6 editable Canva cards (QR from Google's own link), 10 SMS/email scripts by job stage, a 2-step follow-up cadence, a staff/family review disclosure policy, a 'never do' checklist (gating, incentives, in-store iPads), 20 review-response templates, and C11's GBP/AI checklist as a bonus.",
+    "target_buyer": "Owner or office manager of a local service business (trades, clinics, salons) already searching Etsy for 'Google review card'.",
+    "demand_links": [
+      "https://reddit.sentinel-team.org/posts/1rq57dr/snapshots/2026-03-11T01%3A23%3A07.053576Z - SMB thread: getting reviews is harder than expected (Mar 2026, Phase 1)",
+      "https://reddit.sentinel-team.org/posts/1sz8u0r/snapshots/2026-05-02T04%3A50%3A06.954017Z - real reviews removed, possibly after bulk asks (May 2026, Phase 1)",
+      "https://reddit.sentinel-team.org/posts/1tn81br/snapshots/2026-05-26T09%3A47%3A52.470198Z - review problems thread (May 2026, Phase 1)",
+      "https://www.etsy.com/market/review_request - Etsy market page; buyers search for review-request items (current)",
+      "https://www.etsy.com/market/google_review_card_templates - Etsy market page with many listings (current)",
+      "https://beancount.io/blog/2026/07/16/ftc-fake-reviews-crackdown-consumer-review-rule-guide - FTC review-rule crackdown explainer (Jul 2026)",
+      "https://whito.co.uk/news/the-ipad-on-your-counter-is-now-breaking-googles-review-rules/ - in-store review stations now break Google rules (2026)"
+    ],
+    "competitors": [
+      "Etsy editable Canva Google review cards (many sellers) - ~$1-$6 - sales not visible; commodity - https://www.etsy.com/market/google_review_card_templates",
+      "Etsy Google Review Card Template (editable QR) - low single digits - sales not visible - https://www.etsy.com/listing/4480710918/google-review-card-template-editable-qr",
+      "Gumroad Google Review Card - price not shown - no ratings visible - https://enlightprints.gumroad.com/l/Greview",
+      "Gumroad LocalRankAI (bonus SMS Review Request Template Kit) - price not shown - no ratings visible - https://promarketing10.gumroad.com/l/LocalRankAI",
+      "Gumroad Automated Google Reviews blueprint (Make/n8n) - price not shown - https://automatewithbishal.gumroad.com/l/AutomatedGoogleReviews",
+      "Review SaaS (Birdeye, Podium, GatherUp, AskNicely) - subscription - bundle request templates"
+    ],
+    "free_alternatives": [
+      "Google Business Profile native review link + QR code - https://support.google.com/business/answer/16816815?hl=en",
+      "Google 'Tips to get more reviews' - https://support.google.com/business/answer/3474122?hl=en-GH",
+      "Free how-to articles with wording (fitsmallbusiness, famewall, asknicely, gatherup)",
+      "Canva free review-card templates"
+    ],
+    "kill_reasons": [
+      "The card layer is a $1-$6 commodity on Etsy, and Google gives away the QR",
+      "Review-SaaS blogs give request scripts away for free",
+      "Legal-claim risk: must be sold as 'aligned with' Google policy and 16 CFR 465 with a not-legal-advice disclaimer, never 'makes you compliant'"
+    ],
+    "price_recommendation": "$12-19 on Etsy; $29 '3-trade agency pack' on Gumroad",
+    "launch_channels": [
+      "Etsy - review-card market pages show buyer search; AI use must be disclosed (templates are lower risk than AI-written guides) - https://www.etsy.com/seller-handbook/article/1522733284810",
+      "r/smallbusiness - self-promotion only in the weekly 'Promote your business' thread; sub is Q&A (2024 mirror copies; current sidebar NOT VERIFIED) - https://lr.in.psf.lt/r/smallbusiness/comments/1bn1bpy/promote_your_business_week_of_march_25_2024",
+      "Gumroad (agency pack) - no buyer traffic verified - NOT VERIFIED"
+    ],
+    "biggest_risk": "Buyers anchored on $3 cards won't pay $15 for scripts and policy.",
+    "cheap_test": "Etsy listing with cards as the hero image and 'FTC & Google-safe scripts included' in the title. Optionally $1/day Etsy Ads. Kill at 0 sales after 21 days or 300 views.",
+    "build_notes": "4-5 hours: Canva share-template links in a PDF (free Canva account), scripts and policy in Docs/PDF, response templates in Sheets. Drop the QR generator; point buyers to Google's native QR. Hand-edit the scripts to stay clear of Etsy's AI-generated-guide rule."
+  },
+  {
+    "id": "C13",
+    "name": "Agentic-commerce readiness checklist for Shopify/Etsy sellers",
+    "demand": 3,
+    "competition": 2,
+    "wtp": 2,
+    "buildability": 4,
+    "distribution": 2,
+    "growth": 2,
+    "total": 15,
+    "verdict": "WEAK",
+    "rationale": "The platforms do the plumbing for free. Shopify Agentic Storefronts is on by default for eligible stores and reaches ChatGPT, Copilot, AI Mode and Gemini via Shopify Catalog with 'no separate integrations, no apps'; Etsy integrates with Google at platform level. What's left is product-data quality, which is ordinary listing SEO already covered by free vendor guides and free GitHub audit skills. Shopify-community confusion is real, but I found no Etsy-seller demand.",
+    "best_scoped_version": "Shopify-only 'Why aren't my products showing in ChatGPT/AI Mode?' diagnostic Sheet: eligibility check, Catalog/Merchant Center feed errors, a title/attribute rewrite sheet and a policy-page checklist. Drop Etsy.",
+    "target_buyer": "Small US Shopify merchant (under $500k GMV) who can't tell whether their products appear in AI chats.",
+    "demand_links": [
+      "https://community.shopify.com/t/chatgpt-copilot-agentic-shopping-is-it-live-for-all-shopify-stores/585319 - merchants asking whether agentic shopping is live for their store (2026, date not shown)",
+      "https://community.shopify.com/t/chatgpt-is-becoming-a-sales-channel/591794 - merchant discussion (2026, date not shown)",
+      "https://community.shopify.com/t/agentic-shopping-q-a-what-every-shopify-store-needs-to-know-right-now/599243 - Q&A thread (2026, date not shown)",
+      "https://www.paz.ai/blog/shopify-agentic-storefronts-chatgpt-products-not-showing - vendor post on 'products not showing' (2026)",
+      "https://reddit.sentinel-team.org/posts/1r7c9fd/snapshots/2026-02-18T03%3A43%3A29.412351Z - mirror snapshot, described as low-substance (Feb 2026)"
+    ],
+    "competitors": [
+      "Paz.ai - SaaS, price not checked - vendor content on agentic visibility - https://www.paz.ai/blog/shopify-agentic-storefronts-chatgpt-products-not-showing",
+      "StoreRank.ai - SaaS, price not checked - https://www.storerank.ai/shopify-agentic-commerce-the-complete-guide-for-2026/",
+      "Paid Gumroad/Etsy checklists - UNKNOWN (not searched; budget)"
+    ],
+    "free_alternatives": [
+      "Shopify Agentic Storefronts, default-on with official help docs - https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts",
+      "Shopify blog 'How agentic commerce works' - https://www.shopify.com/blog/how-agentic-commerce-works",
+      "Google UCP merchant docs - https://developers.google.com/merchant/ucp",
+      "Free vendor readiness guides: ecommercefastlane, askphill, shugert, storerank",
+      "GitHub: monkydot/ucp-ready, zhao-hanbo/agentic-commerce-kit (Claude Code readiness audit skill), hongruzoe/shopify-geo-product-auditor"
+    ],
+    "kill_reasons": [
+      "Platform-native, default-on discovery (Shopify), with Etsy integrating at platform level: sellers don't need to do anything to be listed",
+      "The remaining work is generic product SEO with abundant free guides",
+      "Fast-moving, conflicting facts (ChatGPT Instant Checkout reportedly retired Mar 2026; checkout differs by channel), so a static kit goes stale quickly",
+      "No Etsy-seller demand found"
+    ],
+    "price_recommendation": "$15-19",
+    "launch_channels": [
+      "Shopify Community forums - promotion rules NOT VERIFIED - https://community.shopify.com/",
+      "r/shopify - rules NOT VERIFIED - n/a",
+      "Gumroad - no buyer search traffic verified - NOT VERIFIED"
+    ],
+    "biggest_risk": "Shopify or Google ships a native AI-visibility diagnostic in the admin, and sellers simply wait.",
+    "cheap_test": "Answer 5 Shopify Community 'not showing in ChatGPT' questions with genuine help. Only if follow-ups or DMs come, list a $15 Sheet on Gumroad; otherwise drop it.",
+    "build_notes": "Sheets checklist plus PDF is easy. Accuracy needs current Shopify/Google/OpenAI docs and ideally a live Shopify store to test against; the rules change monthly."
+  },
+  {
+    "id": "C14",
+    "name": "Etsy digital-seller compliance kit",
+    "demand": 3,
+    "competition": 2,
+    "wtp": 2,
+    "buildability": 5,
+    "distribution": 3,
+    "growth": 4,
+    "total": 19,
+    "verdict": "VIABLE",
+    "rationale": "The 'why now' just got much stronger. On 22 Oct 2026 Etsy tightened its AI rules: disclosure required, AI prompt bundles prohibited, bot/mass-automated listings prohibited, AI-generated functional guides banned, stricter images, and removals or possible shop closure for repeat violations. Removal threads exist on Etsy's forum. Against it: Etsy publishes the rules free in plain language, a wave of free blog explainers appeared within days, and I found no paid compliance kit with sales.",
+    "best_scoped_version": "'Etsy AI-Policy Listing Audit Kit (Oct 2026 rules)': a Google Sheet that audits each listing (disclosure, functional-guide risk, image rules, prompt-bundle risk), 10 human-written disclosure-sentence templates by product type, an appeal-letter template for wrongful removals, and a dated changelog. No 'ongoing tracker' promise.",
+    "target_buyer": "Etsy digital-download seller with 50-500 listings (printables, Canva templates, planners, clipart) who used AI somewhere and fears removal or shop closure.",
+    "demand_links": [
+      "https://community.etsy.com/t5/Technical-Issues/My-listing-was-removed-that-doesn-t-follow-Etsy-s-Creativity/m-p/146483880 - seller listing removed under Creativity Standards (date not shown)",
+      "https://community.etsy.com/t5/Technical-Issues/Listing-Removed-for-Violating-Creativity-Standards-as-AI-found/m-p/146482631/highlight/true - removal as AI (date not shown)",
+      "https://community.etsy.com/t5/Technical-Issues/My-Listing-Removed-by-Mistake/m-p/148836738 - wrongful removal (date not shown)",
+      "https://community.etsy.com/t5/Technical-Issues/Etsy-deactivated-a-bunch-of-Canva-templates-I-made-myself/m-p/146045612/highlight/true - digital Canva templates deactivated (date not shown)",
+      "https://www.digitalcommerce360.com/2026/10/26/etsy-ai-policy/amp/ - press on the 22 Oct 2026 AI policy update (26 Oct 2026)",
+      "https://retaildive.com/news/etsy-updates-ai-use-policies-emphasize-craftsmanship/833838 - press on the update (Oct 2026)",
+      "https://www.valueaddedresource.net/etsy-bans-ai-patterns/ - seller-news coverage of the ban on AI patterns/guides (Oct 2026)"
+    ],
+    "competitors": [
+      "No paid Etsy/Gumroad compliance kit found in searches - n/a - possible gap or no demand - n/a",
+      "Adjacent paid Etsy seller tools: eRank, Marmalead, Alura; 'Super Spy HeyEtsy' $19 with 80 ratings (Phase 1 MS#34) - shows sellers pay for tools"
+    ],
+    "free_alternatives": [
+      "Etsy Creativity Standards - https://www.etsy.com/legal/creativity",
+      "Etsy Seller Handbook 'Important updates to AI use on Etsy' (22 Oct 2026) - https://www.etsy.com/seller-handbook/article/1522733284810",
+      "Etsy 'What is Etsy's stance on AI creations?' - https://www.etsy.com/seller-handbook/article/1275449912004",
+      "Etsy Listing Image Requirements - https://www.etsy.com/legal/policy/listing-image-requirements/253962679005",
+      "Free blog explainers within days: findskill.ai, inkfluenceai, explainx, kompozy, rewarx, listadum, lineart-ink",
+      "GitHub JanPienaar/keepr-etsy-ops (Claude Code Etsy skill pack 'with compliance gates')"
+    ],
+    "kill_reasons": [
+      "Etsy's own free, plain-language policy pages cover the rules",
+      "Free explainer blogs appeared within days of the change",
+      "A Claude-written compliance guide sold on Etsy could itself breach the AI-generated functional-guide rule; it must be human-authored, disclosed and template-heavy",
+      "No paid comparable with sales found, so willingness to pay is unproven"
+    ],
+    "price_recommendation": "$9-15 on Etsy",
+    "launch_channels": [
+      "Etsy - sellers buy seller resources there (search volume NOT VERIFIED); AI disclosure required, no prompt bundles, no AI-generated functional guides - https://www.etsy.com/seller-handbook/article/1522733284810",
+      "Gumroad - secondary; no traffic verified - NOT VERIFIED",
+      "r/EtsySellers - self-promotion rules NOT VERIFIED - n/a",
+      "Etsy Community forums - promotion rules NOT VERIFIED (assume prohibited) - https://community.etsy.com/"
+    ],
+    "biggest_risk": "Sellers read Etsy's free page and move on (no WTP). Secondary: Etsy flags the kit itself under the AI-guide rule.",
+    "cheap_test": "Check eRank/Etsy autocomplete for 'ai disclosure', then list a $9 Etsy version within 7 days while the 22 Oct change is fresh. Kill at 0 sales after 21 days.",
+    "build_notes": "4-5 hours: a Google Sheet audit with dropdowns and conditional formatting, a templates PDF and an appeal letter. Cite Etsy's pages by link rather than copying them. Write and hand-edit in the founder's own voice, and add an AI-use disclosure to the listing."
+  },
+  {
+    "id": "C15",
+    "name": "Vibe-coder launch safety kit",
+    "demand": 3,
+    "competition": 1,
+    "wtp": 2,
+    "buildability": 4,
+    "distribution": 3,
+    "growth": 2,
+    "total": 15,
+    "verdict": "REJECT",
+    "rationale": "The pain is real and documented (Moltbook leak, Lovable RLS CVE affecting about 170 apps, audits finding RLS off), but free official and platform-native tools now do the core job. Lovable scans automatically for security issues before every publish and has integrated Supabase's Security Advisor, and Claude Code users get cloudflare/security-audit-skill free (56,272 stars). There are 35+ free checklist repos and several paid Gumroad clones with no visible traction.",
+    "best_scoped_version": "None as a paid product. A non-security 'launch admin' checklist (privacy policy, terms, backups, Stripe webhook verification, data deletion) could be a free lead magnet.",
+    "target_buyer": "Non-developer founder shipping a Lovable, Bolt or Claude Code app that handles customer data.",
+    "demand_links": [
+      "https://securitybrief.co.uk/story/moltbook-vibe-coded-flaw-exposed-ai-chats-keys - Moltbook vibe-coded leak of chats and keys (2026)",
+      "https://dev.to/rishabh_kumar_6d865c83a4d/i-audited-50-vibe-coded-apps-heres-what-broke-1pb6 - audit: 70% of audited Lovable apps had RLS off; small sample (2026)",
+      "https://rockingtech.co.uk/blog/is-your-vibe-coded-app-production-ready-checklist - production-readiness checklist for vibe-coded apps (2 Jul 2026)",
+      "https://dev.to/varsha_ojha_5b45cb023937b/the-lovableboltv0-security-crisis-what-non-technical-founders-must-fix-before-going-live-9i5 - non-technical founder security crisis post (2026)",
+      "Viral r/vibecoding pre-launch checklist ('I shipped without doing any of this'), relayed by a search-result article; specific URL not attributed - NOT VERIFIED"
+    ],
+    "competitors": [
+      "vibe code security checklist (Gumroad) - price not shown - no ratings visible - https://givigier.gumroad.com/l/vibe-code-security-checklist",
+      "Pre-Push Review Prompt with Supabase RLS add-on (Gumroad) - price not shown - https://buildtolaunch.gumroad.com/l/pre-push-review",
+      "Secure Coding for Frontend & Backend Devs (Gumroad) - price not shown - https://uigerhana.gumroad.com/l/vibe-coding-security",
+      "Smoke Testing for Vibe Coding checklist (Gumroad) - price not shown - https://buildtolaunch.gumroad.com/l/best-vibe-coding-testing-checklist",
+      "The Security Guide for Vibe Coders (Product Hunt) - price not shown - https://www.producthunt.com/products/the-security-guide-for-vibe-coders?page=2",
+      "blncraft vibe-coder-kit (Gumroad, Phase 1) - price not shown - https://blncraft.gumroad.com/l/vibe-coder-kit"
+    ],
+    "free_alternatives": [
+      "Lovable automatic pre-publish security scan + integrated Supabase Security Advisor + AI Security Reviewer - https://lovable.dev/blog/secure-vibe-coding",
+      "cloudflare/security-audit-skill (56,272 stars, created 18 Jun 2026)",
+      "astoj/vibe-security (165), benavlabs/vibe-check (142), finehq/vibe-coding-checklist (37), lachydotmcg/slopsec Claude skill (25), boxed-dev/vibe-coding-security (69 checks)",
+      "ohad6k/VibeRaven (free Supabase RLS scanner, 61), SymbioticSec/vibe-scanner (23), GerardoRdz96/rlsgate, AlonAI4/code-armour (security + legal/privacy skill)"
+    ],
+    "kill_reasons": [
+      "FATAL: free platform-native scanning (Lovable + Supabase Security Advisor) and a 56k-star free vendor skill (Cloudflare) do the core security job",
+      "Dozens of free checklists plus paid Gumroad clones with no visible traction",
+      "Liability: selling 'launch safety' to non-developers implies an assurance a checklist can't give"
+    ],
+    "price_recommendation": "Do not sell; at most a free lead magnet",
+    "launch_channels": [
+      "r/vibecoding - self-promotion rules NOT VERIFIED - n/a",
+      "r/lovable - rules NOT VERIFIED - n/a",
+      "Product Hunt - similar guides listed; rules NOT VERIFIED - https://www.producthunt.com/products/the-security-guide-for-vibe-coders?page=2"
+    ],
+    "biggest_risk": "n/a (rejected): free official tools make the paid kit redundant.",
+    "cheap_test": "If the lead insists: post a free checklist to r/vibecoding and count email sign-ups before building anything paid.",
+    "build_notes": "Skill and checklist are easy to build; credibility needs testing against a sample Supabase app (a few hours)."
+  }
+]

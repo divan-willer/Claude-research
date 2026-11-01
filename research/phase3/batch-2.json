@@ -1,0 +1,247 @@
+[
+  {
+    "id": "C06",
+    "name": "\"Connect Claude to your business tools\" setup kit for non-developers [SEED 5]",
+    "demand": 2,
+    "competition": 1,
+    "wtp": 2,
+    "buildability": 3,
+    "distribution": 2,
+    "growth": 1,
+    "total": 11,
+    "verdict": "REJECT",
+    "rationale": "Pain is real but mostly vendor bugs (OAuth, Cowork on Windows, 'Connected' with no tools) that a guide cannot fix. Anthropic's free Claude for Small Business plugin already turns QuickBooks, Square, Google Workspace etc. into OAuth sign-ins from a plugin directory, and many free blog walkthroughs exist. Paid Cowork guides on Gumroad show no visible sales; content goes stale with each Cowork release.",
+    "best_scoped_version": "None standalone. At most a free 2-page 'connect QuickBooks/Jobber to Claude: 5 gotchas' lead magnet or chapter inside C01/C02 (e.g. QBO developer sandbox fails; use a paid/trial QBO file).",
+    "target_buyer": "SMB owner on Claude Pro trying Cowork connectors for the first time.",
+    "demand_links": [
+      "research/phase1/ai-ecosystem-gaps.md G6 - 1,312 Cowork-titled issues in anthropics/claude-code and 927 in anthropics/claude-ai-mcp since May 2026; technical reporters, not buyers (May-Nov 2026)",
+      "https://reddit.sentinel-team.org/posts/1tmpeq5/snapshots/2026-05-29T18%3A50%3A49.032229Z - user hit 403 on QuickBooks OAuth with Intuit sandbox, had to use QBO trial (2026-05-29)",
+      "https://findskill.ai/blog/claude-for-small-business-setup-walkthrough/ - free guide already documents the sandbox gotcha (2026)"
+    ],
+    "competitors": [
+      "Cowork Mastery guide (Mac) - price not visible - no sales visible - https://theusefultech.gumroad.com/l/cowork-mastery-guide",
+      "Claude Cowork Guide 2026 (incl. connector setup cheatsheets) - price not visible - no sales visible - https://intelligentsam5.gumroad.com/l/gvnzfh",
+      "N8n MCP Integration Handbook (Etsy) - price not visible - no reviews visible - https://www.etsy.com/listing/4518427513/n8n-mcp-integration-handbook-claude-n8n"
+    ],
+    "free_alternatives": [
+      "Claude for Small Business plugin: bundled QuickBooks, Square, PayPal, HubSpot, Google Workspace, M365, Stripe connectors, no extra cost (https://siliconangle.com/2026/05/13/anthropic-launches-claude-small-business-new-automation-workflows/, https://www.digitalapplied.com/blog/claude-for-small-business-quickbooks-hubspot)",
+      "Free setup guides: findskill.ai, pulse.bot, mikareyes.com, consulting.sva.com, dev.to (URLs in batch-2.md)",
+      "mcpb one-click installs (~718k npm downloads/month) and microsoft/mcp-for-beginners 17.6k stars (Phase 1 G6)"
+    ],
+    "kill_reasons": [
+      "Free official plugin + connector directory with OAuth sign-in does the job (fatal)",
+      "Top errors are platform bugs a guide cannot fix",
+      "Advice goes stale weekly",
+      "Many free walkthroughs exist",
+      "Launch-date conflict noted: search results say Claude for Small Business launched 13 May 2026 vs 15 Sep 2026 in candidates.md; live and free either way"
+    ],
+    "price_recommendation": "None ($0 lead magnet only).",
+    "launch_channels": [
+      "r/ClaudeAI - NOT VERIFIED - n/a",
+      "Gumroad - no evidence buyers browse for this - n/a"
+    ],
+    "biggest_risk": "Nobody pays for what is free and official.",
+    "cheap_test": "Publish the 2-page gotchas PDF free; if it cannot pull opt-ins in 7 days, a paid version is dead.",
+    "build_notes": "Credible screenshots need paid/trial QuickBooks Online, Square and Jobber accounts on Mac and Windows; each Cowork update breaks steps. Not a quality one-day build."
+  },
+  {
+    "id": "C07",
+    "name": "Per-trade voice-receptionist template pack for AI-automation agencies [SEED 6]",
+    "demand": 3,
+    "competition": 2,
+    "wtp": 3,
+    "buildability": 3,
+    "distribution": 4,
+    "growth": 4,
+    "total": 19,
+    "verdict": "VIABLE",
+    "rationale": "Agencies do buy templates (Ciela sells $49/template or $99/mo; a dental voice-bot kit is $179/$349; Etsy receptionist script packs run $9-$22 up to ~$47). But plain per-trade prompts are already done: Etsy has an HVAC AI Receptionist Deployment Kit with call flows, intake schema and a QA workbook, a 25-script HVAC GHL pack and a $22 Vapi/Bland/Retell pack, and Skool communities give templates away. The open gap is the state AI-disclosure/recording-consent layer plus a pre-launch test-call QA kit; no sales or review counts were visible anywhere.",
+    "best_scoped_version": "'Voice Agent Launch-Safety Kit for HVAC & Plumbing agencies': state-by-state AI-disclosure and recording-consent opening lines + consent flows (cited, date-stamped Sheet, not legal advice); emergency triage rule block (gas/CO/flooding); 50 scripted test calls + pass/fail scorecard (C08 folded in); Vapi and Retell booking/transfer tool-schema JSON; client go-live sign-off sheet. Dental (+BAA checklist) as second SKU.",
+    "target_buyer": "1-5 person AI-automation agency or freelancer selling receptionists to home-service businesses on $400-$2,000/month retainers.",
+    "demand_links": [
+      "research/phase1/trend-scout.md #3 - 'ai receptionist' GitHub repos up 8.8x YoY, momentum 1.44; Vapi/Retell repos only 1.5x (Nov 2025-Oct 2026)",
+      "https://www.skool.com/aivoicenetwork/about - voice-AI agency community mentioning proven templates (2026)",
+      "https://www.skool.com/voice-ai-mastery-5847 - AI Reseller Club, voice AI agency community, $5/mo after trial per snippet (2026)",
+      "https://chat.skool.com/voice-self-hosters - community offering automation templates and agent prompts to agencies (2026)",
+      "https://www.skool.com/openautomation-collective-6267 - Voice Offer Lab, templates/prompts/workflows (2026)",
+      "https://www.upwork.com/services/product/admin-customer-support-build-ai-receptionist-for-hvac-plumbing-electrical-ai-calling-agent-2071660623106302895 - freelancers selling HVAC/plumbing receptionist builds (2026)",
+      "research/phase1/pain-hunter.md #3 - home-service owners complain about missed calls (Reddit mirror 1tgvx7m, 2026-05-22); end-client demand, not template demand",
+      "NOTE: no thread found of an agency explicitly asking to buy templates"
+    ],
+    "competitors": [
+      "AI Receptionist Script Pack (Vapi/Bland/Retell) - $22 - no reviews visible - https://www.etsy.com/market/ai_receptionist",
+      "HVAC AI Receptionist Deployment Kit (TradeKitWorks) - price not visible - master prompt, call flows, intake schema, emergency scripts, n8n starter, QA workbook - https://www.etsy.com/au/listing/4539664221/hvac-ai-receptionist-deployment-kit",
+      "GHL AI Voice Agent Prompt Pack, 25 HVAC scripts - price not visible - recurring in Etsy results - https://www.etsy.com/market/ai_voice_agent_prompts",
+      "Plumbing AI Receptionist Bot - price not visible - n/a - https://www.etsy.com/listing/4300593201/plumbing-ai-receptionist-bot-virtual",
+      "Contractor Inbound Service Call Script & Safety Triage Sheet - $9 - n/a - appeared in Etsy results (https://www.etsy.com/market/ai_receptionist)",
+      "Dental voice bot kit (EN/DE/ES, Vapi/Retell/ElevenLabs) - $179 Pro / $349 Agency - no sales visible - https://dental-voice-bot-kit.vercel.app/",
+      "Ciela templates (HVAC, dental, 50-350+ verticals, Vapi+n8n) - $49 one-time or $99/mo library (pages conflict) - vendor claims only - https://ciela.ai/blogs/pre-built-ai-agent-templates-for-agencies",
+      "Retell dental clinic blueprint (Retell+n8n+Open Dental) - price not visible - n/a - https://zainulabideenbaloch.gumroad.com/l/cjnmds?layout=profile",
+      "AI Voice Assistant Complete Setup & Build Guide - $17 - 1 rating - research/phase1/marketplace-saturation-scout.md row 27"
+    ],
+    "free_alternatives": [
+      "Vapi official Voice Agent Prompt Reference (https://docs.vapi.ai/_fern-files/vapi.docs.buildwithfern.com/cf133005c62df7efa56a080a60422cbbf38e3d26974594187db228dccf935bd1/static/vapi-prompt-reference.md)",
+      "TomHardiman6/ai-receptionist-starter on GitHub (Claude Code + Vapi starter templates)",
+      "TRivers01/ai-receptionist-templates (dental, legal, HVAC, salon, real estate) per Phase 1 G9; not re-checked",
+      "Retell x Make home-services template at A$0 (https://ashtonvossai.gumroad.com/l/ipjjqy); 'Voice AI Receptionist: VAPI MCP' at $0 (https://scalehatch.gumroad.com/)",
+      "Free vendor compliance checklists (dialzara, thoughtly; Phase 1 REG#6)",
+      "Templates bundled in voice-AI Skool memberships"
+    ],
+    "kill_reasons": [
+      "Per-trade prompts already on Etsy and in Ciela's library (not fatal, forces re-scope)",
+      "Templates come free with Skool memberships",
+      "Ciela notes 'sophisticated agents typically require programmatic configuration' (https://ciela.ai/vs/vapi), capping template value",
+      "State AI-disclosure law is contested (Phase 1 REG#6): legal-accuracy risk; sell as researched starting points, not legal advice",
+      "VC consolidation in voice receptionists (Phase 1 TR#3)"
+    ],
+    "price_recommendation": "$39 per trade kit; $79 HVAC+plumbing+dental bundle (anchors: Etsy $22 generic, Ciela $49/template; $179 kit has no visible sales).",
+    "launch_channels": [
+      "Etsy - search pages exist for 'ai receptionist', 'ai voice agent prompts', 'ai voice agent template'; AI digital-goods rules NOT VERIFIED - https://www.etsy.com/market/ai_receptionist",
+      "Gumroad Discover - NOT VERIFIED (no traffic data) - n/a",
+      "Skool voice-AI communities (AI Voice Network, Voice Self-Hosters, Voice Offer Lab) - promo rules NOT VERIFIED - https://www.skool.com/aivoicenetwork/about",
+      "r/automation - third-party mirror: 'avoid using r/automation solely as a platform to advertise your products, services, or personal websites without genuine engagement' (not live rules) - https://gummysearch.com/r/automation/",
+      "r/AI_Agents - NOT VERIFIED - https://gummysearch.com/r/AI_Agents"
+    ],
+    "biggest_risk": "Agencies treat receptionist templates as a commodity they already get free or for $22.",
+    "cheap_test": "Before building, open the Etsy HVAC kit and $22 script pack in a browser to read review counts. Then list the HVAC kit at $39 on Etsy+Gumroad with a free '10 state AI-disclosure opening lines' sample posted in one Skool community and r/automation; kill if fewer than 3 sales in 14 days.",
+    "build_notes": "Docs, Sheet and JSON fit in 8h. State-law research is the slow part: limit to disclosure + all-party-consent states, cite every row, date-stamp. Validate tool-schema JSON on a pay-as-you-go Vapi account + phone number (<$20); never ship untested JSON. Do not claim Vapi/Retell HIPAA/BAA status (none found in Phase 1)."
+  },
+  {
+    "id": "C08",
+    "name": "Chatbot & AI-receptionist QA test kit for SMBs [SEED 8]",
+    "demand": 1,
+    "competition": 2,
+    "wtp": 2,
+    "buildability": 5,
+    "distribution": 2,
+    "growth": 2,
+    "total": 14,
+    "verdict": "WEAK",
+    "rationale": "Nobody was found selling or asking to buy a chatbot QA checklist for SMBs; the only discussion is QA engineers on r/softwaretesting plus vendor content-marketing blogs. Free 2026 checklists are everywhere and chatbot platforms build evals in. The liability 'why now' is thin (Air Canada 2024, OLG Hamm not final, no mandate).",
+    "best_scoped_version": "No standalone. Fold into C07 as the '50 test calls + scorecard' module, where QA is already a selling feature (the Etsy HVAC kit ships a 'QA workbook').",
+    "target_buyer": "Agency launching a client chatbot or receptionist (not the SMB owner).",
+    "demand_links": [
+      "https://redlib.hackliberty.org/r/softwaretesting/comments/1la9uc2/how_were_testing_ai_that_talks_back_and_sometimes - QA engineers discussing testing conversational AI (date not shown)",
+      "https://insertchat.com/blog/ai-chatbot-testing-checklist-for-client-launch - vendor blog for chatbot resellers (2026)",
+      "https://chatimize.com/chatbot-testing/ - vendor free checklist 'How to Test a Chatbot Before Going Live (2026)'",
+      "research/phase1/marketplace-saturation-scout.md row 49 - 2 free GitHub checklist repos, no paid listing (2026)"
+    ],
+    "competitors": [
+      "No chatbot-specific paid kit found on Etsy or Gumroad",
+      "QA Test Plan, Cases, Checklist Templates (generic software QA) - price not visible - n/a - https://www.etsy.com/listing/4514447072/qa-test-plan-cases-checklist-templates",
+      "Software Go-live Checklist Template - price not visible - n/a - https://www.etsy.com/listing/4391081115/software-go-live-checklist-template",
+      "AI Jailbreak Toolkit - price not visible - attack-oriented - https://eye2on1ai.gumroad.com/l/ai-jailbreak-toolkit?layout=profile",
+      "Safeguard Pro Prompt Checker (Red-Team Injection Test mode) - price not visible - n/a - https://mbakry.gumroad.com/l/SafeguardPromptChecker-ContentComplianceAuditor"
+    ],
+    "free_alternatives": [
+      "Free checklists: chatimize.com/chatbot-testing, getautonoma.com/blog/chatbot-testing-checklist, insertchat.com, fin.ai/learn/how-to-test-ai-agent-before-deployment, testmuai.com chatbot-hallucination guide",
+      "Platform-native evals: Chipp (https://chipp.ai/docs/guides/understanding-evals.md), Hyperleap (https://hyperleap.ai/help/bot-studio/testing)",
+      "OWASP Top 10 for LLM Applications",
+      "Synorthos/chatbot-golive-checklist and Autonoma-Tools/chatbot-testing-checklist on GitHub (Phase 1 MS#49)"
+    ],
+    "kill_reasons": [
+      "No buyer demand found",
+      "Abundant free checklists",
+      "Chatbot platforms absorbing testing into product",
+      "Liability why-now is not a mandate"
+    ],
+    "price_recommendation": "$0 standalone; worth +$10-20 perceived value inside C07 (or a $15 add-on).",
+    "launch_channels": [
+      "Etsy 'website qa checklist' search page - serves software-QA buyers, rules NOT VERIFIED - https://www.etsy.com/market/website_qa_checklist",
+      "No SMB channel found; subreddit rules NOT VERIFIED - n/a"
+    ],
+    "biggest_risk": "Nobody searches for it.",
+    "cheap_test": "Offer the QA module as a separately priced $15 add-on next to C07 and measure attach rate.",
+    "build_notes": "Trivial (test-prompt Sheet + scorecard). Buyers, not effort, are the problem."
+  },
+  {
+    "id": "C09",
+    "name": "Brand voice pack for AI tools [SEED 7]",
+    "demand": 1,
+    "competition": 1,
+    "wtp": 2,
+    "buildability": 5,
+    "distribution": 3,
+    "growth": 1,
+    "total": 13,
+    "verdict": "REJECT",
+    "rationale": "An official free Brand Voice plugin for Claude Cowork (Tribe AI, Cowork launch partner) already discovers voice from your docs, generates 'LLM-ready brand guidelines' with a 'We Are / We Are Not' framework and enforces them; that is this product. Etsy is full of brand-voice templates and Claude/ChatGPT project kits, Phase 1 found a $9 anchor, and demand evidence is vendor blogs only.",
+    "best_scoped_version": "None. At most a 1-page 'voice interview' bonus inside a vertical pack.",
+    "target_buyer": "Solo marketer or small business owner using ChatGPT/Claude.",
+    "demand_links": [
+      "research/phase1/pain-hunter.md #29 - vendor blogs only (lilachbullock.com, marqeable.com, backstory.work) (2026)",
+      "NOTE: no buyer threads found"
+    ],
+    "competitors": [
+      "Etsy brand voice guide/template listings - prices not visible - many listings - https://www.etsy.com/market/brand_voice_guide",
+      "Claude AI Project Kit for Content Creators (Etsy) - price not visible - n/a - https://www.etsy.com/listing/4505875061/claude-ai-project-kit-for-content",
+      "BrandingOS (13 Claude skills incl. tone of voice) - price not visible - n/a - https://thesagocreator.gumroad.com/l/brandingos-claude",
+      "Claude Skill Bundle: Content & Copywriting 50+ (Content Style Guide skill) - price not visible - n/a - https://aimastering.gumroad.com/l/claude-skill-bundle-content-and-Copywriting",
+      "Brand Voice Extractor - $9 - no ratings seen - research/phase1/marketplace-saturation-scout.md row 48"
+    ],
+    "free_alternatives": [
+      "Official Brand Voice plugin (Tribe AI) for Claude Cowork - https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/README.md",
+      "Anthropic marketing plugin 'enforce brand voice' (Phase 1 G10)",
+      "Brand-building-skills (821 stars) + 216 'brand voice skill' repos (Phase 1 MS#48)",
+      "Native Claude Projects / ChatGPT custom instructions"
+    ],
+    "kill_reasons": [
+      "Free official plugin does the same job (fatal)",
+      "Saturated with $9 anchor",
+      "Flattening growth (Phase 1 TR#18)"
+    ],
+    "price_recommendation": "None.",
+    "launch_channels": [
+      "Etsy - search pages exist for 'brand voice guide'/'brand voice template' but crowded; rules NOT VERIFIED - https://www.etsy.com/market/brand_voice_template"
+    ],
+    "biggest_risk": "Absorbed by free official tools.",
+    "cheap_test": "None worth running.",
+    "build_notes": "Trivial to build, which is why the shelf is full."
+  },
+  {
+    "id": "C10",
+    "name": "\"Agent-ready local business\" MCP kit",
+    "demand": 1,
+    "competition": 3,
+    "wtp": 1,
+    "buildability": 3,
+    "distribution": 2,
+    "growth": 2,
+    "total": 12,
+    "verdict": "REJECT",
+    "rationale": "Single-business registry entries are real (com.kcplumb/booking, com.thejohnsonbros/plumbing-booking, com.delcoplumbernow/plumber, com.westernskyhvac.www/booking), but a cluster of 'the site's own MCP server' lead-gen entries (california/florida/texas HVAC replacement cost, comparehvacsoftware, hvacsoftwarepicker) shows SEO operators already mass-produce this. No evidence was found that ChatGPT, Claude, Perplexity or Google consume single-business MCP servers; AI local booking runs through aggregators and partners (Google AI Mode agentic booking with OpenTable/Resy/Booksy; booking MCPs Sunrays, Qasper, Lokuli).",
+    "best_scoped_version": "None as a product; fold JSON-LD/booking-link hygiene for AI Mode into C11.",
+    "target_buyer": "Local-SEO freelancers and agencies.",
+    "demand_links": [
+      "https://registry.modelcontextprotocol.io/v0/servers?search=plumb - single-business plumbing MCP servers exist; supply only (queried 2026-11-01)",
+      "https://registry.modelcontextprotocol.io/v0/servers?search=hvac - HVAC business + lead-gen 'site's own MCP server' entries (queried 2026-11-01)",
+      "research/phase1/ai-ecosystem-gaps.md G7 - ~14-25 single-business entries Aug-Nov 2026, no consumption evidence",
+      "NOTE: no buyer threads found"
+    ],
+    "competitors": [
+      "No direct kit found",
+      "Sunrays local service booking MCP (aggregator) - n/a - vendor claims - https://glama.ai/mcp/connectors/dev.sunrays.mcp/sunrays-local-service-booking",
+      "Qasper MCP (booking) - free - 0 stars - https://mcpservers.org/servers/qasper-ai-mcp",
+      "Lokuli skills - n/a - n/a - https://implexa.ai/s/clawhub/lokuli-skills",
+      "StudioMeyer custom MCP server service - n/a - n/a - https://studiomeyer.io/en/services/custom-mcp-server"
+    ],
+    "free_alternatives": [
+      "Google AI Mode agentic booking via partners (https://www.searchenginejournal.com/google-ai-mode-adds-agentic-booking-expands-to-more-countries/554345/)",
+      "Free JSON-LD generators / Google Business Profile (see C11)",
+      "Thumbtack integration in ChatGPT/Claude (search summary only, UNVERIFIED, not scored)"
+    ],
+    "kill_reasons": [
+      "No evidence any assistant routes local queries to these servers (fatal for a paid kit)",
+      "Platforms choose aggregator partners",
+      "Registry niche already mass-produced by lead-gen operators",
+      "Registry namespace verification is hard for non-technical buyers"
+    ],
+    "price_recommendation": "None.",
+    "launch_channels": [
+      "Local-SEO communities - NOT VERIFIED - n/a"
+    ],
+    "biggest_risk": "Product for a channel that may never send traffic.",
+    "cheap_test": "(Not for a 1-day plan) Ask registry-listed operators (kcplumb, Johnson Bros) whether any bookings originated from AI assistants.",
+    "build_notes": "Cloudflare Worker + JSON-LD template buildable in a day; registry publishing needs DNS/HTTP namespace verification; testing via custom connector proves nothing about organic discovery."
+  }
+]

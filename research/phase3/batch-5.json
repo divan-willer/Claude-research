@@ -1,0 +1,265 @@
+[
+  {
+    "id": "C21",
+    "name": "UK Making Tax Digital (ITSA) digital-records spreadsheet + bridging guide",
+    "demand": 3,
+    "competition": 2,
+    "wtp": 3,
+    "buildability": 4,
+    "distribution": 4,
+    "growth": 5,
+    "total": 21,
+    "verdict": "VIABLE",
+    "rationale": "This is the only candidate in the batch with a hard, dated forcing function: about 970k-1.08M more sole traders and landlords enter in Apr 2027, and HMRC is already writing to people who missed the first quarterly deadline. But Etsy already has a cluster of MTD sheets (landlord, joint-owner and music-teacher editions), and free HMRC-recognised software now covers records, quarterly updates and bridging. Viable as a cheap Etsy listing, not a breakout product.",
+    "best_scoped_version": "Landlord-first Google Sheets workbook (multi-property and joint-owner splits, HMRC quarterly categories), tested end to end with one named free or cheap bridging tool to prove the digital link works with no copy-paste. Includes a one-page April 2027 sign-up and quarterly-calendar guide and a 2027/28 edition. Sole-trader edition second. Never claim to be HMRC-recognised.",
+    "target_buyer": "UK landlords with 1-4 properties and £30k-£50k qualifying income who already keep spreadsheets and refuse to move to Xero or QuickBooks. Mandated from 6 Apr 2027.",
+    "demand_links": [
+      "https://www.theregister.com/2026/04/10/mtd_hmrc/ - ~970k more mandated in Apr 2027 (Apr 2026, Phase 1)",
+      "https://moneyweek.com/economy/small-business/what-you-need-to-know-about-making-tax-digital - ~1,077,000 in the Apr 2027 wave (2026, Phase 1)",
+      "https://www.att.org.uk/technical/news/hmrc-contact-taxpayers-who-missed-first-mtd-quarterly-update-deadline - HMRC is contacting people who missed the first quarterly update (2026)",
+      "https://beancount.io/blog/2026/08/14/uk-making-tax-digital-half-missed-first-quarterly-update-guide - blog headline says half missed the first update (Aug 2026, low authority)",
+      "https://singletrackworld.com/forum/off-topic/making-tax-digital-mild-panic-is-bridging-software-a-good-idea-and-any-recommendations-pls - buyer asking about bridging software (date unknown)",
+      "https://reddit.sentinel-team.org/posts/1qec57t/snapshots/2026-01-16T11%3A40%3A13.507681Z - 'Tried using existing Make Tax Digital tools. Gave up. Built my own.' (Jan 2026)",
+      "https://www.ukbusinessforums.co.uk/threads/hmrc-making-tax-digital.430470/latest - spreadsheet + bridging discussion, full of vendor spam (2026)",
+      "https://www.freeagent.com/accountants/events/digital-bookkeeping - webinar on chasing receipts ahead of quarterly MTD deadlines (Oct 2026)"
+    ],
+    "competitors": [
+      "Etsy 'Making Tax Digital Landlord Spreadsheet 2026/27 ... Joint Owners' - $10.48 on sale (from $13.97) - reviews not visible - https://www.etsy.com/uk/market/landlord_excel_spreadsheet",
+      "Etsy 'MTD Bookkeeping Spreadsheet landlords | Accountant-Created Excel Workbook' - price not seen - reviews not visible - https://www.etsy.com/uk/market/landlord_excel_spreadsheet",
+      "Etsy shop MTDMadeSimple (sole trader + VAT editions, one-time purchase) - price not seen - no reviews found - https://www.etsy.com/ca/shop/MTDMadeSimple",
+      "Etsy Music Teacher MTD Record Keeper 2026/27 - price not seen - niche variant - https://www.etsy.com/listing/4600080866/music-teacher-bookkeeping-spreadsheet-uk",
+      "Etsy MTD 2026/27 listings (Phase 1), one landlord version at AU$30.30 on sale - https://www.etsy.com/listing/4567179604/",
+      "Etsy market page 'hmrc spreadsheet uk' runs to at least page 4 - https://www.etsy.com/market/hmrc_spreadsheet_uk?page=4",
+      "Payhip MTD spreadsheet - price not seen - https://payhip.com/b/9ZbAV",
+      "Bridging apps: 123 Sheets, Abridge, MTD Companion (Phase 1), plus GoFile, Absolute Excel Income Tax Filer, IRIS Elements - https://gov.uk/guidance/find-software-thats-compatible-with-making-tax-digital-for-income-tax"
+    ],
+    "free_alternatives": [
+      "GOV.UK software finder lets you filter for free products - https://gov.uk/guidance/find-software-thats-compatible-with-making-tax-digital-for-income-tax , https://anna.money/blog/guides/mtd-bridging-software/",
+      "Starling MTD tool free for Starling sole-trader account holders - https://www.starlingbank.com/blog/making-tax-digital-for-income-tax-rules-deadlines/",
+      "Clear Books free plan (records, quarterly updates, year-end return; vendor claim) - https://clearbooks.co.uk/free-mtd-software/",
+      "Magic Tax free bridging (KFA Connect) - https://dorsetchamber.co.uk/free-solution-for-hmrcs-making-tax-digital/",
+      "Affordable MTD free for 2026-27, then £19.99/yr - https://www.producthunt.com/products/affordable-mtd",
+      "100PcMTD free for 6 months, then £30/yr (Excel/CSV bridging) - https://www.producthunt.com/p/100pcmtd",
+      "NRLA free bridging template for members - https://www.nrla.org.uk/services/tax/taxd/bridging-template",
+      "Xero/QuickBooks/FreeAgent free via some banks (undated Wise table) - https://wise.com/gb/blog/making-tax-digital",
+      "GitHub bobmaker303/mtdtemplates-site (0 stars, Mar 2026)"
+    ],
+    "kill_reasons": [
+      "Free HMRC-recognised software covers both records and submission, so a spreadsheet only serves people who insist on spreadsheets",
+      "Etsy supply already exists at about $10-30, including niche variants",
+      "Copy-paste into bridging software is not permitted; the sheet must actually import into a bridging tool or it misleads buyers",
+      "Tax-accuracy liability (needs 'not tax advice' wording and must never claim HMRC recognition)",
+      "Not fatal: HMRC explicitly allows the spreadsheet + bridging route"
+    ],
+    "price_recommendation": "£12-£19 per edition, or a £24 landlord + sole trader bundle. Don't go above about £25.",
+    "launch_channels": [
+      "Etsy UK search - market pages exist for 'hmrc spreadsheet uk', 'sole trader tax spreadsheet', 'landlord excel spreadsheet'; Etsy AI-disclosure rules NOT VERIFIED - https://www.etsy.com/market/hmrc_spreadsheet_uk",
+      "r/UKPersonalFinance / r/UKLandlords - NOT VERIFIED",
+      "UK Business Forums MTD thread - full of near-identical vendor promos; rules NOT VERIFIED - https://www.ukbusinessforums.co.uk/threads/hmrc-making-tax-digital.430470/latest",
+      "NRLA / Property Tribes landlord forums - NOT VERIFIED"
+    ],
+    "biggest_risk": "Etsy buyers choose the cheapest of several near-identical MTD sheets, and new zero-review listings don't rank.",
+    "cheap_test": "List the landlord edition only, with about £3/day of Etsy Ads for 14 days during Jan-Feb 2027 (peak sign-up pressure). Kill it below 3 sales. Before listing, confirm the summary range imports into one free bridging tool.",
+    "build_notes": "Sheets/Excel workbook (income, expenses by HMRC category, quarterly summary, per-property and joint-owner split) plus a PDF guide (sign-up, choosing a bridging tool, quarterly dates of 7 Aug, 7 Nov, 7 Feb and 7 May, digital-link rules). The hard part is verifying the import with a real bridging tool, which may need an HMRC sandbox account or a trial. Category accuracy must be checked against GOV.UK."
+  },
+  {
+    "id": "C22",
+    "name": "Bookkeeper client document-chasing kit",
+    "demand": 2,
+    "competition": 2,
+    "wtp": 3,
+    "buildability": 4,
+    "distribution": 3,
+    "growth": 3,
+    "total": 17,
+    "verdict": "WEAK",
+    "rationale": "The pain is real but mostly described by vendors; I found no recent buyer threads where bookkeepers ask for a template. Etsy already sells document-request lists, OBBB-updated tax organizers, onboarding bundles and email libraries at $10-80, and portal SaaS automates the chasing. r/Bookkeeping bans self-promotion.",
+    "best_scoped_version": "A 'Missing Docs Tracker' Google Sheet for US 1040/Schedule C preparers. Each client row ticks off required documents, and Apps Script drafts a personalised email listing only the missing items. Bundled with SMS nudges and 'no organizer, no start' engagement-letter wording, launched before January tax season.",
+    "target_buyer": "Solo US tax preparers and bookkeepers with 30-150 individual or Schedule C clients who don't pay for TaxDome, Karbon or Liscio.",
+    "demand_links": [
+      "https://reddit.sentinel-team.org/posts/1u12tvt/snapshots/2026-06-09T23%3A36%3A18.844689Z - client asks whether monthly doc requests are normal; client side, not buyer side (Jun 2026)",
+      "https://reddit.sentinel-team.org/posts/1tfkkpn/snapshots/2026-05-22T21%3A52%3A38.863292Z - post on automating receipt-PDF chasing, no body (May 2026)",
+      "https://www.njcpa.org/about/ceo-compass/post/njcpa-focus/2026/01/20/6-engagement-letter-tips-for-busy-season - don't start until the organizer is back (Jan 2026, Phase 1)",
+      "https://agiled.app/hub/bookkeepers/collect-client-documents - vendor guide on chasing documents (2026, vendor)",
+      "https://www.fylehq.com/posts/the-receipt-chase-is-not-worth-it-your-clients-are - vendor blog (vendor)"
+    ],
+    "competitors": [
+      "Etsy Bookkeeping Client Document Request List Template (needed/received/outstanding + reminder log) - price not seen - reviews not visible - https://www.etsy.com/listing/4465613550/bookkeeping-client-document-request-list",
+      "Etsy 2025 Tax Organizer Worksheet with OBBB updates - price not seen - https://www.etsy.com/listing/4390500735/2025-tax-organizer-worksheet-clients-tax",
+      "Etsy Tax Client Intake Form - price not seen - https://www.etsy.com/listing/4492091578/tax-client-intake-form-editable-cpa",
+      "Etsy email template libraries for tax clients - about $10-80 - https://www.etsy.com/market/email_to_tax_clients",
+      "DocChase (SaaS) - https://www.hunted.space/dashboard/docchase",
+      "Liscio, Agiled portals (SaaS) - https://agiled.app/hub/bookkeepers"
+    ],
+    "free_alternatives": [
+      "Vendor guides and checklists (Agiled) - https://agiled.app/hub/bookkeepers/collect-client-documents",
+      "Document-request automations built into practice-management suites (Liscio, DocChase)"
+    ],
+    "kill_reasons": [
+      "Etsy already covers the template layer at $10-80",
+      "Portal SaaS covers the automation layer",
+      "No buyer threads asking for this",
+      "r/Bookkeeping bans self-promotion"
+    ],
+    "price_recommendation": "$19-$29 on Etsy.",
+    "launch_channels": [
+      "Etsy search - market pages for 'tax client checklist template', 'bookkeeper checklist', 'email to tax clients' exist - https://www.etsy.com/market/tax_client_checklist_template",
+      "r/Bookkeeping - rule 1 'No self-promotion', rule 2 'No commercial spam' (mirror of Jul 2024 mod post; live sidebar NOT VERIFIED) - https://redlib.ssps.io/r/Bookkeeping",
+      "r/taxpros - NOT VERIFIED",
+      "QuickBooks ProAdvisor Facebook groups - NOT VERIFIED"
+    ],
+    "biggest_risk": "Buyers already have a portal or a $15 Etsy checklist, and the Apps Script differentiator is invisible in an Etsy thumbnail.",
+    "cheap_test": "List on Etsy by 1 Dec 2026 with about $1/day of ads through January. Kill it if there are no sales by 31 Jan 2027.",
+    "build_notes": "Sheets tracker + Apps Script email drafter (needs OAuth consent-screen testing in a fresh account), Docs email/SMS templates, and a PDF checklist by client type. Doable in one day."
+  },
+  {
+    "id": "C23",
+    "name": "Freelancer and small-agency 'get paid' kit",
+    "demand": 4,
+    "competition": 1,
+    "wtp": 2,
+    "buildability": 5,
+    "distribution": 3,
+    "growth": 2,
+    "total": 17,
+    "verdict": "REJECT",
+    "rationale": "Demand is real (QuickBooks 2026: 59% have invoices 30+ days overdue; repeated r/freelance threads), but the product is a commodity. Upwork, InvoiceFly, Invoice Simple, Mailmeteor and Millo give away friendly-to-final reminder sequences, QuickBooks, Xero and Zoho build reminders in, and Etsy's 'overdue payment reminder template' market runs to at least 4 pages. A free alternative doing the same job is a fatal kill reason.",
+    "best_scoped_version": "None as a standalone product. At most, fold the AR-tracker tab into C24.",
+    "target_buyer": "Freelancers and micro-agencies with 30+-day overdue invoices. They are well served by free resources.",
+    "demand_links": [
+      "https://quickbooks.intuit.com/r/small-business-data/small-business-late-payments-report-2026/ - 59% have invoices 30+ days overdue (2026, vendor survey, Phase 1)",
+      "https://reddit.sentinel-team.org/posts/1qnijiy/snapshots/2026-01-26T21%3A31%3A17.271988Z - r/freelance late-payment advice (Jan 2026, Phase 1)",
+      "https://reddit.sentinel-team.org/posts/1sriafq/snapshots/2026-04-21T11%3A01%3A56.411052Z - r/freelance (Apr 2026, Phase 1)",
+      "https://reddit.sentinel-team.org/posts/1tjtox0/snapshots/2026-05-21T19%3A22%3A38.649042Z - r/freelance (May 2026, Phase 1)"
+    ],
+    "competitors": [
+      "Etsy Payment Reminder Email Templates for Freelancers - price not seen - https://www.etsy.com/listing/4429375661/payment-reminder-email-templates-for",
+      "Etsy Invoice Follow up Email Generator - price not seen - https://www.etsy.com/listing/4427947477/invoice-follow-up-email-generator",
+      "Etsy 'overdue payment reminder template' market, at least 4 pages - https://www.etsy.com/market/overdue_payment_reminder_template?page=4",
+      "Gumroad: 892 'invoice template' results with 44 ratings across the top 10 (Phase 1 MS#39); example - https://quietbuilderf.gumroad.com/l/ymqol"
+    ],
+    "free_alternatives": [
+      "Upwork late-payment follow-up templates - https://www.upwork.com/resources/late-payment-follow-ups",
+      "InvoiceFly 4-tier reminder templates - https://invoicefly.com/free-resources/free-templates/payment-reminder-template/",
+      "Mailmeteor overdue invoice email sequence - https://mailmeteor.com/email-templates/overdue-invoice-email-sequence",
+      "Millo 4 payment reminder templates - https://millo.co/4-free-payment-reminder-templates-to-help-you-get-paid",
+      "Mailmodo invoice reminder template - https://www.mailmodo.com/email-templates/invoice-reminder-email/",
+      "Built-in automatic reminders in QuickBooks, Xero and Zoho (Phase 1)"
+    ],
+    "kill_reasons": [
+      "FATAL: free templates from major brands plus built-in invoicing reminders do the exact job",
+      "Etsy and Gumroad are crowded with low ratings",
+      "No forcing function"
+    ],
+    "price_recommendation": "Don't sell it standalone. If bundled, $9-15.",
+    "launch_channels": [
+      "r/freelance - third-party sources say self-promotion is banned with permanent bans; sidebar NOT VERIFIED - https://thehiveindex.com/communities/r-freelance/",
+      "Etsy search - traffic exists but crowded - https://www.etsy.com/market/late_payment_template"
+    ],
+    "biggest_risk": "Zero differentiation against free.",
+    "cheap_test": "None recommended. Fold the AR tab into C24.",
+    "build_notes": "Trivial (Sheets + Docs) in a few hours. Buildability isn't the problem."
+  },
+  {
+    "id": "C24",
+    "name": "One-time-price trades ops kit (anti-subscription)",
+    "demand": 3,
+    "competition": 2,
+    "wtp": 4,
+    "buildability": 5,
+    "distribution": 4,
+    "growth": 3,
+    "total": 21,
+    "verdict": "VIABLE",
+    "rationale": "Etsy proves trades owners buy spreadsheet business kits: one landscaping bundle shows '(3.5k)', others show 185 and 84 reviews. But the same evidence shows a saturated, low-price category ($3.99-$13.78) with entrenched incumbents. The anti-Jobber angle is weaker than claimed: 2026 price trackers conflict and are promotion-driven, and I found no thread of owners switching to spreadsheets. Viable only as a narrow, single-trade edition.",
+    "best_scoped_version": "A single-trade, phone-first Google Sheets kit for a trade without a 1k+-review Etsy incumbent (HVAC or pressure washing; check eRank first). Includes a price book, estimate -> job -> invoice flow, AR aging tab (absorbing C23) and a maintenance-agreement renewal tracker with 60/90-day reminder text. Sold as 'one payment, no monthly fee', with a Jobber monthly-cost comparison.",
+    "target_buyer": "Solo or 1-3-person service owners (HVAC, handyman, pressure washing, cleaning) on spreadsheets or free tiers who won't pay $49-$149/month for Jobber or Housecall Pro.",
+    "demand_links": [
+      "https://reddit.sentinel-team.org/posts/1sdtcl7/snapshots/2026-04-09T20%3A34%3A38.462784Z - local-service owner replaced a $200/mo field-service subscription (Apr 2026, Phase 1)",
+      "https://reddit.sentinel-team.org/posts/1tlc4zu/snapshots/2026-05-29T21%3A30%3A12.687798Z - field-service software too complex on a phone (May 2026, Phase 1)",
+      "https://reddit.sentinel-team.org/posts/1t3azb4/snapshots/2026-05-09T03%3A22%3A46.312153Z - handyman owners on jobs, quotes, invoices (May 2026, Phase 1)",
+      "https://reddit.sentinel-team.org/posts/1qcnqu7/snapshots/2026-01-14T21%3A20%3A46.769845Z - 'losing money on Tuesdays' Jobber reporting gap (Jan 2026)",
+      "https://costbench.com/changelog/jobber-price-increase-2026-02-3/ - Jobber pricing change; tracker data conflicts (Feb 2026)",
+      "https://pricingsaas.com/companies/jobber/diffs/2026Q2 - Jobber raises prices across Core/Connect/Grow (Q2 2026)"
+    ],
+    "competitors": [
+      "Etsy Landscaping Business Templates bundle - $8.76 sale - '(3.5k)' reviews shown (may be shop-level) - https://www.etsy.com/market/lawn_care_business_planner_templates",
+      "Etsy Landscaping Business Management Template - $3.99 - 185 reviews - https://www.etsy.com/market/lawn_care_business_planner_templates",
+      "Etsy Lawn Care Business Tracker (Google Maps integrated) - $13.78 - 84 reviews - https://www.etsy.com/market/lawn_care_business_planner_templates",
+      "Etsy Lawn Care Business Management Spreadsheet - $8.03 sale - ~47-58 reviews - https://www.etsy.com/market/lawn_care_business_planner_templates",
+      "Etsy Handyman Business Spreadsheet (job tracking, client records) - ~$3-30 range - https://www.etsy.com/listing/4363712888/handyman-business-spreadsheet",
+      "Etsy Handyman Estimator Excel Template - https://www.etsy.com/listing/4433865203/handyman-estimator-excel-template",
+      "Etsy Cleaning Business Tracker Spreadsheet - https://www.etsy.com/listing/4524482994/cleaning-business-tracker-spreadsheet",
+      "Gumroad cleaning toolkit (Phase 1) - https://cleanstrong.gumroad.com/l/ecfyg"
+    ],
+    "free_alternatives": [
+      "Yardbook and Kickserv free tiers (Phase 1 PH#2)",
+      "Jobber's own 12-month intro discounts on annual plans - https://pricingsaas.com/companies/jobber/diffs/2026Q2",
+      "DIY AI-built tools (Phase 1 thread 1sdtcl7)"
+    ],
+    "kill_reasons": [
+      "Saturated Etsy category with a $4-14 price anchor and thousands of incumbent reviews",
+      "'Anti-subscription' demand is anecdotal; no switch-to-spreadsheet threads found",
+      "Not fatal: buyers visibly pay for this exact format"
+    ],
+    "price_recommendation": "$14-$24 for a single-trade edition. Anything above about $29 fights a $4-14 anchor.",
+    "launch_channels": [
+      "Etsy search - market pages exist for handyman spreadsheet, handyman estimate template, contractor estimate and invoice template, lawn care business planner templates - https://www.etsy.com/market/handyman_spreadsheet",
+      "r/sweatystartup - NOT VERIFIED",
+      "LawnSite / trade Facebook groups - NOT VERIFIED"
+    ],
+    "biggest_risk": "A new listing can't outrank the 185-3.5k-review incumbents at $4-9.",
+    "cheap_test": "Use eRank's free tier to pick a trade term with fewer than about 2k results and no 500+-review leader. List one edition with $1-2/day of Etsy Ads for 21 days. Look for at least 1% conversion on 500+ views.",
+    "build_notes": "One Sheets workbook (5-7 tabs), an optional Apps Script reminder-text generator, a PDF quick-start and Etsy mockup images. Mockups take real time; otherwise very doable in a day."
+  },
+  {
+    "id": "C25",
+    "name": "TAKE IT DOWN Act compliance pack for small online communities",
+    "demand": 1,
+    "competition": 2,
+    "wtp": 2,
+    "buildability": 4,
+    "distribution": 2,
+    "growth": 2,
+    "total": 13,
+    "verdict": "REJECT",
+    "rationale": "I found no evidence that small community operators want this; every source is a law-firm alert or trade press, and FTC warning letters targeted Big Tech. For Discord, Circle and Skool communities, the host platform is very likely the covered platform and runs the takedown process (my inference, not confirmed against the statute). Free example policies and the IFTAS library exist, and selling legal-compliance documents to volunteer admins carries legal risk with thin WTP.",
+    "best_scoped_version": "None. At most, a free lead magnet.",
+    "target_buyer": "In theory, US self-hosted forum and Fediverse admins and niche UGC site owners. In practice, mostly unpaid volunteers.",
+    "demand_links": [
+      "https://www.abajournal.com/news/article/ftc-warns-companies-to-comply-with-the-take-it-down-act - FTC letters to Meta, Microsoft, TikTok, Reddit, Snapchat, Apple, Amazon, X; not small sites (May 2026)",
+      "https://consumer.ftc.gov/media/ftc-enforces-compliance-take-it-down-act - FTC enforcement page (2026)",
+      "https://about.iftas.org/library/take-it-down-act-2025-usa/ - IFTAS says small Fediverse instances are expected to comply; a free resource (2025-26)",
+      "https://www.techdirt.com/tag/non-consensual-intimate-imagery/ - argues small volunteer sites can't realistically comply (2026)",
+      "No buyer threads found"
+    ],
+    "competitors": [
+      "Payhip Notice-and-Removal Policy Template - price not seen - no sales visible - https://payhip.com/b/hNydk",
+      "Etsy: no TIDA templates found (only DMCA templates) - https://www.etsy.com/market/dmca_notice"
+    ],
+    "free_alternatives": [
+      "Reflected Networks NCIVD notice-and-takedown policy - https://reflected.net/NCIVDPolicy.php",
+      "Pressable TAKE IT DOWN notice - https://pressable.com/legal/take-it-down-act-notice/",
+      "OVHcloud notice and removal page - https://us.ovhcloud.com/legal/take-it-down/",
+      "Locals TID notice process - https://locals.com/site/tid",
+      "Etsy NCII reporting intake fields - https://help.etsy.com/hc/en-us/articles/39905089891863-Reporting-Non-Consensual-Intimate-Imagery-NCII",
+      "IFTAS library for Fediverse moderators - https://about.iftas.org/library/take-it-down-act-2025-usa/",
+      "Hosted platforms (Discord, Circle, Skool) handle NCII takedowns for content they host (inference)"
+    ],
+    "kill_reasons": [
+      "No demand signal from buyers",
+      "Hosted-community platforms carry the duty (inference)",
+      "Free copyable policies exist",
+      "Legal-advice risk selling 'compliance' documents",
+      "Enforcement started 19 May 2026; no new deadline ahead"
+    ],
+    "price_recommendation": "n/a. If built at all, $0-19.",
+    "launch_channels": [
+      "No marketplace search traffic (Etsy returns only DMCA templates)",
+      "Discourse Meta / IFTAS / Fediverse admin channels - NOT VERIFIED"
+    ],
+    "biggest_risk": "Nobody searches for it.",
+    "cheap_test": "A 1-question post in one forum-admin community asking whether admins have done anything about TAKE IT DOWN. Only revisit with 10+ worried replies.",
+    "build_notes": "Docs only, a few hours. Needs careful legal wording and a prominent 'not legal advice' notice."
+  }
+]

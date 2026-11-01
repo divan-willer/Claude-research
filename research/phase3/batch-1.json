@@ -1,0 +1,248 @@
+[
+ {
+  "id": "C01",
+  "name": "HVAC & plumbing \"AI office manager\" skill pack",
+  "demand": 3,
+  "competition": 2,
+  "wtp": 3,
+  "buildability": 4,
+  "distribution": 2,
+  "growth": 2,
+  "total": 16,
+  "verdict": "WEAK",
+  "rationale": "The free official Claude for Small Business plugin already does quotes from voice memos and jobsite photos (proposal-builder), review replies, win-back, invoice chasing and speed-to-lead. The free alexclowe tradesperson plugin adds /estimate. Paid trade AI kits on Etsy are $5-$50 prompt PDFs with single-digit ratings, and trade owners are not a proven Etsy/Gumroad audience. Only Jobber/HCP export-awareness and maintenance-agreement renewals differentiate.",
+  "best_scoped_version": "Drop 'AI office manager'. Build an HVAC Service-Agreement Renewal & Quote Follow-up Kit: a Google Sheets agreement tracker (renewals 60/90 days out), 12 SMS/email templates and one optional Claude/ChatGPT project instruction that reads a Jobber/HCP customer CSV. Sell on Etsy as a spreadsheet kit. Consider merging into C24.",
+  "target_buyer": "Owner-operator of a 1-5 truck residential HVAC shop that sells maintenance plans and tracks them in a spreadsheet or a basic Jobber tier.",
+  "demand_links": [
+   "https://reddit.sentinel-team.org/posts/1srtoqs/snapshots/2026-04-25T02%3A30%3A13.962987Z - Florida HVAC owner asks how others use Claude in their business (about Mar 2026)",
+   "https://reddit.sentinel-team.org/posts/1slagzc/snapshots/2026-04-17T17%3A16%3A47.061327Z - HVAC-related snapshot returned with a thread asking what helped with estimating/dispatching/admin; only title or opener visible (Apr 2026)",
+   "https://reddit.sentinel-team.org/posts/1sn2lxy/snapshots/2026-04-24T19%3A29%3A23.242902Z - contractor cut nightly admin from about 3h to 30min with AI estimates (Apr 2026, PH#9)",
+   "https://www.hvacrschool.com/events/7th-annual-hvac-r-training-symposium/the-small-hvac-owners-guide-to-ai-workflows-that-actually-work/ - industry symposium session on AI workflows for small HVAC owners (2026)",
+   "https://community.servicetitan.com/t5/Estimates/ChatGPT-Estimates-Quotes/m-p/40122 - ServiceTitan community thread on ChatGPT for estimates/quotes (date unknown)"
+  ],
+  "competitors": [
+   "HVAC Business AI Toolkit | 90 ChatGPT Prompts, 5 Automations - $14.99 - '6 ratings'; plumbing twin also 6 ratings - https://www.etsy.com/market/ai_business_toolkits",
+   "AI Office Starter Package for HVAC Companies (60 prompts, 6 workflows) - $37.16-$49.78 - no sales seen - https://www.etsy.com/market/construction_ai_prompts",
+   "Multi-trade kit, 60 ChatGPT & Claude prompts - $10 - no sales seen - https://www.etsy.com/market/ai_business_toolkits",
+   "120-prompt home-service pack - $5.59 - no sales seen - https://www.etsy.com/market/ai_tools_for_business?page=7",
+   "AI for Contractors Prompt Guide - price not captured - no sales seen - https://www.etsy.com/listing/4357247077/ai-for-contractors-prompt-guide-roofing",
+   "Home Services AI Manager Tool - price not captured - URL slug says '59-sales' (unverified) - https://www.etsy.com/listing/4513471732/home-services-ai-manager-tool-59-sales",
+   "Cleaning Business AI Prompt Toolkit (analogue) - price not captured - '19 sales', no reviews - https://www.etsy.com/listing/4489958284/cleaning-business-email-templates"
+  ],
+  "free_alternatives": [
+   "Claude for Small Business (Anthropic, free): proposal-builder, review-reputation, reactivate, invoice-chase, speed-to-lead - https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/README.md",
+   "alexclowe/awesome-claude-cowork-plugins 'tradesperson' (/estimate, /inspection-report, /scope-of-work, /customer-email) - https://raw.githubusercontent.com/alexclowe/awesome-claude-cowork-plugins/main/README.md",
+   "GitHub miron-tech/hvac-claude-skills (6 stars), KRASA-AI/plumbing-ai-skills (0 stars); 'hvac claude' returns 59 repos",
+   "Free SEO content: https://claudecoworkcourse.com/blog/chatgpt-for-hvac-businesses, https://academy.techpresso.co/prompts/hvac-companies, https://achrnews.com/articles/152896-10-free-ways-to-boost-your-hvac-business-with-chatgpt"
+  ],
+  "kill_reasons": [
+   "The free official SMB plugin covers about 60-70% of the listed workflows (quotes, reviews, win-back, invoice chasing)",
+   "Skills need a paid Claude plan, and plugin install is a hurdle for non-technical trade owners",
+   "Etsy trade-AI listings show single-digit ratings",
+   "No buyer community with verified promotion rules"
+  ],
+  "price_recommendation": "$19-$29 as a Sheets + templates kit; not above $29 given $10-$15 anchors.",
+  "launch_channels": [
+   "Etsy (spreadsheet kit) - listings exist; search traffic plausible but thin - https://www.etsy.com/market/ai_business_toolkits",
+   "r/HVAC - NOT VERIFIED - n/a",
+   "r/hvacadvice - 'mods, homeowners, and end users should be the only people making posts' (2022 rules); wrong audience - https://lr.eu.psf.lt/r/hvacadvice/comments/wz8vhy/subreddit_rules_august_2022/is7wgjy/?context=3",
+   "HVAC owner Facebook groups - NOT VERIFIED - n/a"
+  ],
+  "biggest_risk": "Trade owners don't buy 'AI kits' on Etsy or Gumroad, and the free official plugin absorbs the rest.",
+  "cheap_test": "One $19 Etsy listing (about $0.20 fee) for the agreement tracker + texts, with $1-2/day Etsy Ads for 7 days. Kill if fewer than 300 views or 0 sales.",
+  "build_notes": "Sheets tracker with conditional-format renewal flags, Docs templates, one SKILL.md and a 5-page setup PDF: about 5h. Take Jobber/HCP CSV column names from public help docs; no test account needed for CSV-based skills."
+ },
+ {
+  "id": "C02",
+  "name": "Bookkeeper month-end close skill pack on official QuickBooks/Xero connectors",
+  "demand": 2,
+  "competition": 1,
+  "wtp": 2,
+  "buildability": 4,
+  "distribution": 2,
+  "growth": 2,
+  "total": 13,
+  "verdict": "REJECT",
+  "rationale": "The core job is free and official: Claude for Small Business close-month/month-end-prep reconciles QBO/Xero/MYOB/Zoho ledgers against payment processors and writes the P&L narrative. Intuit ships its own Claude plugin and connector, and the free alexclowe bookkeeper plugin adds /reconciliation-report. Etsy already sells month-end kits with Claude prompts and $8 Claude bookkeeping toolkits. r/Bookkeeping bans self-promotion, and bookkeeper demand for a Claude pack is unevidenced.",
+  "best_scoped_version": "None as a Claude pack. The multi-client bookkeeper gap (client query emails about uncategorised transactions, document chasing) belongs in C22 as a Sheets kit.",
+  "target_buyer": "Solo bookkeeper with 10-40 QBO/Xero clients.",
+  "demand_links": [
+   "https://reddit.sentinel-team.org/posts/1t6a6ic/snapshots/2026-05-08T21%3A35%3A13.515039Z - poster replaced a VA by connecting Claude to QuickBooks via MCP; not r/Bookkeeping (May 2026)",
+   "https://reddit.sentinel-team.org/posts/1tfkkpn/snapshots/2026-05-22T21%3A52%3A38.863292Z - receipt-chasing automation thread (May 2026, PH#8)",
+   "https://www.claudecodehq.com/blog/claude-accountants-month-end-close-stack - vendor blog: the official connector suits report questions, not line-level month-end matching (Oct 23 2026)",
+   "https://findskill.ai/blog/claude-quickbooks-month-end-close-bookkeeper/ - vendor tutorial on a 20-min Claude+QBO close (2026)"
+  ],
+  "competitors": [
+   "Month-end close kit: 22-step checklist + 5-tab Excel + 7 Claude/ChatGPT prompts - price not captured - no sales seen - https://www.etsy.com/market/bookkeeper_templates",
+   "AI Bookkeeping Toolkit for Claude | Small Business Finance Agents - $8.00 - no sales seen - https://www.etsy.com/fr/market/ai_for_accounting?page=2",
+   "100/110-prompt bookkeeper packs (ChatGPT, Claude, Grok) - mostly $5-$20 - no sales seen - https://www.etsy.com/market/marketing_and_finance_ai_prompts"
+  ],
+  "free_alternatives": [
+   "Claude for Small Business close-month, month-end-prep, invoice-chase, tax-season-organizer (requires QBO/Xero/MYOB/Zoho Books; CSV fallback) - https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/close-month/SKILL.md",
+   "Intuit official intuit-quickbooks plugin in the official marketplace - https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/.claude-plugin/marketplace.json",
+   "Intuit QBO in Claude since about 23 Apr 2026; invoice writes announced at Intuit Connect 27 Oct 2026 (secondary) - https://insightfulaccountant.com/accounting-tech/general-ledger/intuit-announces-expansion-of-claude-and-chatgpt-connectivity/",
+   "alexclowe 'bookkeeper' plugin (/financial-summary, /reconciliation-report, /tax-prep, /client-email) - https://raw.githubusercontent.com/alexclowe/awesome-claude-cowork-plugins/main/README.md",
+   "GitHub vpodugu/startup-bookkeeper (20 stars); 'bookkeeping claude skills' returns 51 repos"
+  ],
+  "kill_reasons": [
+   "FATAL-LEANING: a free official tool does the same core job (close-month + Intuit plugin)",
+   "r/Bookkeeping Rule 1 'No self-promotion', Rule 2 'No commercial spam', plus a mod post about the uptick in tool announcements",
+   "Price anchor of $5-$20 on Etsy",
+   "Intuit and Anthropic keep extending the free layer (invoice writes added Oct 2026)"
+  ],
+  "price_recommendation": "Do not build. If folded into C22: $29-$39.",
+  "launch_channels": [
+   "r/Bookkeeping - Rule 1 'No self-promotion', Rule 2 'No commercial spam' (relayed via a user comment on a mirror; full current text NOT VERIFIED) - https://lr.eu.psf.lt/r/bookkeeping",
+   "QuickBooks ProAdvisor groups - NOT VERIFIED - n/a",
+   "Etsy - listings exist, no sales seen - https://www.etsy.com/market/bookkeeper_templates"
+  ],
+  "biggest_risk": "Official free tools (Anthropic SMB plugin, Intuit plugin) already do month-end and keep expanding.",
+  "cheap_test": "None worth running. Test C22 (doc-chasing kit) instead before tax season.",
+  "build_notes": "Buildable in a day from CSV exports. Live-connector demos need a QBO sandbox (not verified as free in this run)."
+ },
+ {
+  "id": "C03",
+  "name": "Therapist private-practice documentation kit (no-PHI)",
+  "demand": 4,
+  "competition": 2,
+  "wtp": 4,
+  "buildability": 4,
+  "distribution": 4,
+  "growth": 3,
+  "total": 21,
+  "verdict": "VIABLE",
+  "rationale": "The only candidate in the batch with real willingness-to-pay evidence: Etsy therapy-note template bundles sell at $9-$18 with 580-836 reviews shown. The pain is constant (evening notes; AI scribes about $35/clinician/month). But the category is crowded, and 'AI' is not the differentiator: Etsy already has AI progress-note prompt guides with 'No PHI' claims, and the free alexclowe therapist plugin has /session-note and /hipaa-check. It wins only as a better template kit for a sharper niche, with the AI workflow as a bonus.",
+  "best_scoped_version": "An 'Insurance-Ready Progress Note Kit' for one niche (e.g. LPC/LCSW insurance billing for anxiety/depression, or child/play therapy): a Google Sheets dropdown note builder (DAP/SOAP/BIRP), a medical-necessity and intervention phrase bank, a treatment-goal bank, a 1-page de-identified-shorthand Claude/ChatGPT project instruction with a no-PHI rule, and a client AI-use consent template. Sell on Etsy.",
+  "target_buyer": "Solo private-practice LPC/LCSW/LMFT who bills insurance and writes notes in the evening.",
+  "demand_links": [
+   "https://reddit.sentinel-team.org/posts/1qporha/snapshots/2026-01-29T01%3A51%3A20.500236Z - r/therapists: notes, templates, copy-paste of generated SOAP/DAP notes (Jan 2026, PH#1)",
+   "https://reddit.sentinel-team.org/posts/1sdnt0u/snapshots/2026-04-09T17%3A33%3A54.651862Z - r/therapists documentation thread (Apr 2026, PH#1)",
+   "https://reddit.sentinel-team.org/posts/1tk7l4p/snapshots/2026-05-22T06%3A54%3A50.751336Z - r/therapists documentation thread (May 2026, PH#1)",
+   "https://reddit.sentinel-team.org/posts/1tvy83a/snapshots/2026-06-04T12%3A20%3A34.255191Z - r/therapists documentation thread (Jun 2026, PH#1)",
+   "https://www.wfae.org/united-states-world/2026-05-26/therapists-are-using-ai-to-take-notes-is-it-a-useful-tool-or-a-breach-of-trust - NPR: AI notes cut 15-20 min to 2 min; client trust concerns (May 2026)",
+   "https://findskill.ai/blog/chatgpt-therapy-notes-hipaa/ - vendor: therapists using consumer ChatGPT/Claude for notes; HIPAA/BAA risk (2026)"
+  ],
+  "competitors": [
+   "SOAP DAP BIRP Notes Builder Bundle (Sheets) - $14.40 (from $18) - 827-836 reviews shown (may be shop-level) - https://www.etsy.com/listing/4443073237/soap-dap-birp-notes-builder-bundle",
+   "Therapy Note Taking Templates (9 SOAP/DAP/BIRP) - $14.06 (from $35.14) - 614 reviews shown (may be shop-level) - https://www.etsy.com/listing/4333200272/therapy-note-taking-templates-soap-dap",
+   "Therapy Session Notes Generator (5 formats) - $8.99 (from $14.99) - 580 reviews shown - https://www.etsy.com/market/therapy_note_generator",
+   "Evidence-based SOAP/DAP/BIRP + treatment goals + medical necessity - $2.99 - n/a - https://www.etsy.com/market/therapy_soap_notes_template",
+   "Couples Therapy Progress Notes - price not captured - n/a - https://www.etsy.com/listing/4457555827/couples-therapy-progress-notes-therapy",
+   "AI Progress Notes Prompt Guide / 'No PHI' / 'HIPAA Compliant Templates' AI listings - price not captured - no counts seen - https://www.etsy.com/market/chatgpt_prompts_for_therapist",
+   "AI Prompt Pack for Therapists & Coaches - price not captured - n/a - https://www.etsy.com/listing/4504821073/ai-prompt-pack-for-therapists-coaches",
+   "Prompts for Psychologists (2,000+ prompts) - price not captured - n/a - https://ismailsaleem.gumroad.com/l/ChatGPT-Prompts-for-Psychologist"
+  ],
+  "free_alternatives": [
+   "alexclowe 'therapist' plugin (/session-note, /treatment-plan, /pre-auth, /hipaa-check) - https://raw.githubusercontent.com/alexclowe/awesome-claude-cowork-plugins/main/README.md",
+   "GitHub carrie-lypp/claude-therapist (24 stars); 'therapist claude skills' returns 8 repos",
+   "Free SOAP/DAP templates and guides on vendor blogs (Mentalyc, ICANotes) - https://mentalyc.com/blog/using-chatgpt-for-therapy-notes",
+   "Paid SaaS alternative: BAA-covered scribes (Mentalyc, Upheal) and SimplePractice AI add-on at about $35/month (PH#1)"
+  ],
+  "kill_reasons": [
+   "Crowded Etsy category with entrenched high-review incumbents",
+   "Liability: must never claim 'HIPAA compliant'; consumer ChatGPT/Claude are not HIPAA-covered without a BAA (vendor sources)",
+   "Many therapists distrust AI notes (NPR), so the AI angle can repel buyers"
+  ],
+  "price_recommendation": "$17-$24 one-time on Etsy (list at about $29 with launch sale); incumbents anchor at $9-$18.",
+  "launch_channels": [
+   "Etsy - strong buyer search; many therapy-note listings with hundreds of reviews - https://www.etsy.com/market/therapy_soap_notes_template",
+   "r/therapists - ads 'will be removed WITHOUT WARNING'; weekly 'CEUs, Resources, Self-Promos' thread exists (frequency/limits NOT VERIFIED) - https://reddit.sentinel-team.org/posts/1ttri99/snapshots/2026-06-02T09%3A49%3A38.052873Z",
+   "Therapist Facebook groups - NOT VERIFIED - n/a"
+  ],
+  "biggest_risk": "A new zero-review Etsy listing can't outrank the 600-800-review incumbents.",
+  "cheap_test": "List the niche kit on Etsy at $19 with $2/day Etsy Ads for 10 days (target 3+ sales), and post once in the r/therapists weekly self-promo thread.",
+  "build_notes": "About 6h: Sheets builder with data-validation dropdowns and concatenation formulas, Docs templates, phrase bank, one project-instruction file, disclaimers ('not clinical/legal/billing advice', no-PHI rule). Check clinical phrasing against payer medical-necessity language."
+ },
+ {
+  "id": "C04",
+  "name": "Realtor AI listing & follow-up kit with fair-housing guardrails",
+  "demand": 3,
+  "competition": 1,
+  "wtp": 2,
+  "buildability": 5,
+  "distribution": 3,
+  "growth": 3,
+  "total": 17,
+  "verdict": "WEAK",
+  "rationale": "The most saturated niche in the batch. Etsy and Gumroad carry dozens of realtor ChatGPT/Claude prompt bundles at $1.50-$28, including 100-500+ prompt libraries. Free fair-housing AI guides exist, and the free alexclowe real-estate plugin has /listing-description and /cma-narrative. Demand rests on one NAR survey; do not build.",
+  "best_scoped_version": "None worth a build day. If forced: a $9-$12 'Fair-Housing Listing Word Check' Google Sheet that flags risky phrases in pasted copy (lead magnet at best).",
+  "target_buyer": "Individual residential agent using ChatGPT for listings.",
+  "demand_links": [
+   "https://www.nar.realtor/newsroom/realtors-adopt-technology-to-save-time-and-improve-the-client-experience-nar-report-finds - NAR 2026: 63% cite learning curve, 59% cost (2026, PH#7)",
+   "https://www.nar.realtor/news/real-estate-news/technology/the-tech-real-estate-agents-rely-on-most-in-2026 - NAR 2026 tech usage (2026, PH#7)"
+  ],
+  "competitors": [
+   "100 ChatGPT Prompts for Realtors - price not captured - no reviews visible - https://www.etsy.com/listing/4316721928/100-chatgpt-prompts-for-realtors-real",
+   "Real Estate AI Prompt Library Bundle 100+ - price not captured - no reviews visible - https://www.etsy.com/au/listing/4350932972/real-estate-ai-prompt-library-bundle-100",
+   "ChatGPT Package for Real Estate Agents - price not captured - n/a - https://www.etsy.com/listing/4370531065/chatgpt-package-for-real-estate-agents",
+   "Etsy realtor prompt bundles overall - about $1.50 (30 prompts) to about $28 (150 prompts); 400+ prompt bundles exist - n/a - https://www.etsy.com/market/real_estate_chatgpt_prompts",
+   "True Prompts PromptVault Vol. 05 (65 prompts) - price not captured - n/a - https://trueprompts.gumroad.com/l/realestateprompts",
+   "VortexDev 500+ AI Prompts for Real Estate - price not captured - n/a - https://vortexdev0.gumroad.com/l/ai-prompts-real-estate",
+   "AI Real Estate Marketing Kit 2.0 - price not captured - n/a - https://digitalwealthwithsa.gumroad.com/l/airealstate",
+   "Aivenue Labs Master Prompt Vault - price not captured - n/a - https://aivenuelabs.gumroad.com/l/ujibd"
+  ],
+  "free_alternatives": [
+   "alexclowe 'real-estate' plugin (/listing-description, /client-email, /cma-narrative, /market-update, /offer-comparison) - https://raw.githubusercontent.com/alexclowe/awesome-claude-cowork-plugins/main/README.md",
+   "GitHub zubair-trabzada/ai-realestate-claude (187 stars); 'real estate agent claude skills' returns 40 repos",
+   "Free fair-housing AI listing guides - https://howaiworks.ai/use-cases/ai-for-real-estate-listings, https://theaicareerlab.com/professions/real-estate"
+  ],
+  "kill_reasons": [
+   "Dozens of near-identical prompt bundles at $1.50-$28 on Etsy and Gumroad",
+   "Free profession plugins and free fair-housing guides",
+   "Fair-housing liability lands on the agent's license, so a guardrail can't be sold as a guarantee"
+  ],
+  "price_recommendation": "$9-$12 if built at all.",
+  "launch_channels": [
+   "Etsy/Gumroad - heavy buyer search but saturated - https://www.etsy.com/market/real_estate_chatgpt_prompts",
+   "r/realtors - sidebar 'Follow the rules'; self-promotion rules NOT VERIFIED - https://reddit.sentinel-team.org/posts/1th24mr/snapshots/2026-05-20T07%3A13%3A12.584101Z",
+   "Realtor Facebook groups - NOT VERIFIED - n/a"
+  ],
+  "biggest_risk": "The listing gets buried among 100+ near-identical listings.",
+  "cheap_test": "Don't spend the build day. If curious, check review counts on the top 10 Etsy 'real estate chatgpt prompts' listings (not visible in snippets).",
+  "build_notes": "Trivial (about 3h). The difficulty is entirely distribution."
+ },
+ {
+  "id": "C05",
+  "name": "SOP-to-agent instruction converter",
+  "demand": 2,
+  "competition": 1,
+  "wtp": 1,
+  "buildability": 4,
+  "distribution": 2,
+  "growth": 1,
+  "total": 11,
+  "verdict": "REJECT",
+  "rationale": "A free official tool does exactly this job: Anthropic's skill-creator, Claude for Small Business 'Automate this — turn a task you repeat into a named skill' and build-agent, Microsoft Skill Recorder (recorded session to SKILL.md), and a strands-agents SOP-to-SKILL.md converter. No paid converter with sales was found. Owners' pain is writing SOPs, not converting them.",
+  "best_scoped_version": "None as a converter. Pre-written vertical SOP skills (e.g. 12 front-office SOPs for a dental office) can be a section of a vertical kit.",
+  "target_buyer": "SMB owner documenting processes (already served for free).",
+  "demand_links": [
+   "https://reddit.sentinel-team.org/posts/1sxq3ki/snapshots/2026-04-28T10%3A30%3A37.832533Z - owner says the business is 'basically a bunch of undocumented instincts' (Apr 2026, PH#19)",
+   "https://reddit.sentinel-team.org/posts/1pn8tys/snapshots/2025-12-16T04%3A11%3A49.657895Z - training SOPs a complete mess (Dec 2025, PH#19)"
+  ],
+  "competitors": [
+   "Custom GPT Instructions Builder / Claude Project instruction kits (not SOP converters) - price not captured - no sales seen - https://www.etsy.com/market/chatgpt_custom_instructions",
+   "Etsy 'AI agent template' listings - price not captured - no sales seen - https://www.etsy.com/market/ai_agent_template"
+  ],
+  "free_alternatives": [
+   "Anthropic skill-creator - https://raw.githubusercontent.com/anthropics/skills/main/skills/skill-creator/SKILL.md",
+   "Claude for Small Business 'Automate this' + build-agent - https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/README.md",
+   "Microsoft Skill Recorder - https://raw.githubusercontent.com/microsoft/skill-recorder/main/README.md",
+   "strands-agents agent-sop SOP-to-SKILL.md converter - https://deepwiki.com/strands-agents/agent-sop/4.3-anthropic-skills",
+   "skills.sh Skills Maker - https://www.skills.sh/diegosouzapw/awesome-omni-skill/agent-33-skills-maker",
+   "Free how-tos: https://www.mindstudio.ai/blog/skill-creator-workflow-claude-code-sop-to-skill, https://eliteaiadvantage.com/how-to/claude-skill-sop-for-team",
+   "GitHub: 'sop to skill' 84 repos; 'sop skill claude' 133 repos (e.g. charlesdove977/procedure-ops, 63 stars)"
+  ],
+  "kill_reasons": [
+   "FATAL: free official/platform-native tools (Anthropic skill-creator, SMB plugin 'Automate this', Microsoft Skill Recorder)",
+   "No willingness-to-pay evidence",
+   "A web version needs a paid LLM API backend"
+  ],
+  "price_recommendation": "n/a (free lead magnet at most).",
+  "launch_channels": [
+   "None credible; Etsy shows only adjacent 'AI agent template' searches - promotion rules NOT VERIFIED - https://www.etsy.com/market/ai_agent_template"
+  ],
+  "biggest_risk": "Already absorbed by free platform features.",
+  "cheap_test": "None recommended.",
+  "build_notes": "A SKILL.md version takes under 1h, which is itself the problem. A web version needs API keys and cost control."
+ }
+]

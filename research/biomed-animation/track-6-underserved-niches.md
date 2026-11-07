@@ -1,0 +1,301 @@
+# Track 6: Underserved niches
+
+Method note. WebSearch worked for about 33 queries, then hit the shared per-turn search cap (200 calls across all agents). WebFetch failed on every host I tried (DNS blocked: pmc.ncbi.nlm.nih.gov, jamanetwork.com, 3d.nih.gov, raps.org, labster.com, federalregister.gov, hhs.gov, ecfr.gov, signanthealth.com, visiblebody.com). So every citation below is from a search-result snippet, marked "(snippet)". Nothing was opened and read in full. Treat all numbers as needing a fetch-level check. Several niches in the brief (Africa, LATAM, Southeast Asia, rare-disease advocacy budgets) got no searches before the cap hit; see "What I could not find".
+
+## Summary
+
+**Regulatory triggers (status as of Nov 2026).**
+- US Section 1557 language access is still in force. On 2 June 2026 HHS published a notice of vacatur. It covers only the gender-identity provisions and says the other provisions remain in force [Federal Register 2026-11015](https://www.federalregister.gov/documents/2026/06/02/2026-11015/notice-of-vacatur-regarding-certain-provisions-of-the-2024-nondiscrimination-in-health-programs-and) (snippet). A vendor's reading is that 45 CFR 92.201 (language assistance) and 92.11 (notice of availability) were not vacated [Smartling](https://www.smartling.com/questions/section-1557-translation-vendor-requirements) (snippet).
+- EU CTR Article 37 lay summaries have been mandatory in CTIS for all trials, ongoing and new, since 31 January 2025 [GMP-Compliance](https://www.gmp-compliance.org/gmp-news/good-lay-summary-practice) (snippet). A preprint found that fewer than half of Phase II–IV trials that had to post results fully complied on time [Clinical Leader, 14 Aug 2026](https://www.clinicalleader.com/doc/under-half-of-ctis-trials-met-results-reporting-requirements-0001) (snippet).
+- ICH E6(R3) Principles and Annex 1 took effect in the EU on 23 July 2025. Annex 2 (decentralised and non-traditional designs) reached Step 4 on 3 June 2026 and takes effect in the EU on 15 January 2027 [CASRAI](https://casrai.org/dictionary/term/ich-e6r3) (snippet).
+- The US DOJ moved the ADA Title II web compliance date for large public entities from 24 April 2026 to 26 April 2027 [Duane Morris](https://www.duanemorris.com/alerts/doj_extends_ada_title_ii_digital_accessibility_deadlines_one_year_0426.html) (snippet).
+- The European Accessibility Act has applied since 28 June 2025. None of the scope lists I saw include healthcare [Travers Smith](https://www.traverssmith.com/knowledge/knowledge-container/a-new-milestone-for-accessibility-the-european-accessibility-act-now-applies/) (snippet).
+
+Inference (confidence: medium): none of these rules requires animation. They force spend on plain-language, translated and accessible content. Animation is one way to meet them, not a requirement.
+
+**eConsent and trial-participant content.** Medidata, Signant and Medable all support multimedia. Signant's in-house Creative Services made custom animations for a Japanese paediatric CNS trial [Signant case study](https://signanthealth.com/hubfs/Marketing%20Assets/Case%20Studies/Case%20Study%20-%20Signant%20SmartSignals%20eConsent%20-%20Japanese%20Pediatric%20CNS%20trial.pdf) (snippet). Medrio says few companies use multimedia in eConsent, partly because bringing in graphic-design or multimedia vendors slows adoption [Medrio](https://medrio.com/?p=25352) (snippet, date unknown). Jumo Health is the main specialist incumbent. It reports 200+ trials in 90+ languages across 75+ countries [Applied Clinical Trials](https://www.appliedclinicaltrialsonline.com/view/filling-the-gaps-in-clinical-trial-education-literacy) (snippet) and has 89 employees [PitchBook](https://pitchbook.com:8443/profiles/company/61966-00) (snippet).
+
+The strongest counter-evidence is a 1,535-participant RCT in JAMA Network Open (2026). It compared text-only eConsent with text plus a physician video, a patient video or an animated video. Consent rates and comprehension were similar across all four arms [JAMA Netw Open](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2848407) (snippet). A smaller single-centre RCT went the other way: an 8-minute animated eConsent for kidney biopsy produced about 3 more correct answers out of 9 [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12160941/) (snippet).
+
+**Rare disease.** In 2025, 23 of CDER's 46 novel approvals (50%) had orphan designation [RAPS](https://www.raps.org/resource/cder-approved-46-novel-drugs-in-2025-half-for-rar.html) (snippet). In 2024 it was 26 of 50 (52%) [RAPS](https://www.raps.org/resource/cder-approved-50-novel-drugs-in-2024-record-numbe.html) (snippet). I found nothing on advocacy-group budgets.
+
+**Microbiology (H4).** Coverage in the big interactive 3D platforms is thin:
+- Visible Biology lists one 3D bacterial cell and no viruses [Cengage help](https://help.cengage.com/visible-body/student/visible-body/visible-biology-app.html) (snippet).
+- BioDigital's clearest pathogen content is a 2020 COVID-19 set [BioDigital](https://support.biodigital.com/hc/en-us/articles/360045671593-FAQs-COVID-19-Dashboard) (snippet) [pre-2024, possibly stale].
+- Labster's 17 microbiology simulations are lab-skill focused [Labster](https://www.labster.com/blog/popular-microbiology-virtual-lab-simulations) (snippet).
+- The newer entrant MedMicroMaps lists its 3D shape explorer as "in the lab" [MedMicroMaps](https://medmicromaps.com/) (snippet).
+
+Free and stock microbe content does exist, though. NIH 3D and NIAID's PathogenAR offer bacterial and viral models under CC-BY [NIH 3D](https://3d.nih.gov/entries/3DPX-017980) (snippet). Science Photo Library sells species-level animations through SuperStock, including *B. anthracis*, *Staphylococcus*, monkeypox and bacteriophage [SuperStock](https://www.superstock.com/asset/animation-bacillus-anthracis-bacteria-which-cause-disease-anthrax-humans-some/4128-V58569589) (snippet).
+
+**Dental and veterinary.**
+- Dental patient education is crowded and cheap. Consult-PRO lists $149–$198/month after promotion [Consult-PRO](https://consult-pro.com/chairside-suite.html) (snippet). Spear bundles patient education into a $267/month membership [third-party blog](https://aituber.app/blog/best-dental-video-marketing-companies/) (snippet).
+- Veterinary client education is mostly text. LifeLearn ClientEd is 2,100+ handouts from $84/month [LifeLearn](https://www.lifelearn.com/products/client-education-resource/) (snippet). But IDEXX already ships an exam-room 3D tool [IDEXX](https://ca.idexx.com/en-ca/veterinary/software-services/client-communications/) (snippet).
+- Corporate groups own about 25% of US primary-care vet practices and 75% of specialty and emergency practices [Frontiers/PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12106480/) (snippet). DSOs covered 16% of US dentists in 2024 [ADA News](https://adanews.ada.org/new-dentist/2025/november/hpi-more-new-dentists-affiliated-with-dsos/) (snippet).
+
+**Medical-legal.** Vendor pages put detailed 3D medical or accident animation at $5,000–$20,000 per minute. Complex multi-scene cases run $12,000–$25,000+ [Austin Visuals](https://austinvisuals.com/courtroom-animation-cost/) (snippet). Proposed FRE 707 is not law. The Advisory Committee voted on 7 May 2026 not to advance it [Redgrave](https://www.redgravellp.com/publication/machine-generated-evidence--rules-advisory-committee-hits-pause-to-consider-significant-revisions-to-proposed-federal-rule-of-evidence-707-addressing-evidence-generated-by-artificial-intelligence) (snippet).
+
+**India.** The final NMC matrix for 2025–26 lists 1,29,026 MBBS seats [Medical Dialogues](https://medicaldialogues.in/amp/news/education/altogether-129026-mbbs-seats-available-for-2025-26-nmc-releases-final-seat-matrix-details-160748) (snippet). I found no evidence on willingness to pay.
+
+Inference (confidence: medium): the clearest pattern is that sponsors are obliged to explain trials and drugs in plain, translated language (lay summaries, consent and assent, rare-disease MoD), but specialist supply is concentrated in a few firms (Jumo, vendor in-house teams). Whether animation beats text is contested. The best founder-fit gap is a validated, rigged library of species-level microbes. Its demand evidence is weaker.
+
+## Hypothesis check
+
+| ID | Verdict | Key evidence | Strongest counter-evidence |
+|---|---|---|---|
+| H1 | insufficient evidence | My track did not test whether studios rebuild assets per project. For microbes, the interactive platforms are thin (Visible Biology: one bacterial cell, [Cengage](https://help.cengage.com/visible-body/student/visible-body/visible-biology-app.html), snippet). VOKA advertises veterinary library assets "from $500", which implies some studios do reuse libraries ([VOKA](https://voka.io/3d-medical-animation-services/veterinary/), snippet). | Free CC-BY microbe models on NIH 3D ([NIH 3D](https://3d.nih.gov/entries/3DPX-017980), snippet). Paid bacteria packs on CGTrader ([CGTrader](https://www.cgtrader.com/3d-models/science/medical/blue-bacteria-model-pack), snippet). I could not check whether any of these are rigged or scientifically validated. |
+| H2 | not assessed | Only pricing evidence: 3D medical animation at $8,000–$18,000/min on average ([Northanimation](https://northanimation.com/3d-medical-animation-cost), snippet) and $5,000 to $50,000+/min ([Mark Studios](https://www.markstudios.com/blog/medical-animation-cost-2026), snippet). Nothing on studio capacity or "No AI" clauses. | None found. Not searched. |
+| H3 | partly supported | Section 1557 language access remains in force ([FR 2026-11015](https://www.federalregister.gov/documents/2026/06/02/2026-11015/notice-of-vacatur-regarding-certain-provisions-of-the-2024-nondiscrimination-in-health-programs-and), snippet). EU CTR lay summaries have been mandatory since 31 Jan 2025 and fewer than half of trials comply ([GMP-Compliance](https://www.gmp-compliance.org/gmp-news/good-lay-summary-practice); [Clinical Leader](https://www.clinicalleader.com/doc/under-half-of-ctis-trials-met-results-reporting-requirements-0001), snippets). Few companies use multimedia in eConsent ([Medrio](https://medrio.com/?p=25352), snippet). | A 1,535-person RCT found that animated video did not improve consent or comprehension over text ([JAMA Netw Open](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2848407), snippet). Supply exists: Jumo Health covers 90+ languages ([ACT](https://www.appliedclinicaltrialsonline.com/view/filling-the-gaps-in-clinical-trial-education-literacy), snippet), and Signant has in-house creative. The EAA does not list healthcare; the ADA Title II deadline slipped to 2027. Dental patient education is crowded. |
+| H4 | partly supported | Big 3D platforms have little species-level microbe content: Visible Biology (one bacterial cell), BioDigital (2020 COVID set), Labster (lab-skill simulations), MedMicroMaps (3D explorer not yet live). A cited survey says 91% of undergraduate microbiology respondents found molecular concepts and spatial visualisation hardest ([PMC 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12283081/), snippet; the underlying survey is older). | Species-level stock animations exist (SPL via [SuperStock](https://www.superstock.com/asset/animation-colony-staphylococcus-bacteria-spherical-gram-positive-bacteria-form-important/4128-V58569568), snippet). Free CC-BY models exist (NIH 3D, PathogenAR). Studios already do vaccine MoA work, e.g. Pfizer MenB ([XVIVO](https://xvivo.com/example-types/infectious-disease-animation), snippet). Demand-side evidence (buyers, budgets) is thin. |
+
+## Top 3 candidate gaps
+
+### Gap 1: Modular, multilingual trial-participant animation kits (consent/assent, lay summary, disease explainer), rare-disease first
+
+**Problem.** Sponsors must explain trials to participants and the public in plain, often translated language: eConsent and assent, EU CTR lay summaries, and disease explainers for rare conditions. eConsent platforms can host multimedia, but few sponsors use it, partly because commissioning a separate multimedia vendor slows things down. Specialist supply sits with a few firms and with vendors' in-house teams. Inference (confidence: low-medium): a library of reusable, validated modules (anatomy, MoD, procedures, "what is a trial") that can be localised quickly would cut cost and time per trial.
+
+**Evidence**
+- Lay summaries have been mandatory for all CTIS trials since 31 Jan 2025 ([GMP-Compliance](https://www.gmp-compliance.org/gmp-news/good-lay-summary-practice), snippet).
+- Fewer than half of Phase II–IV CTIS trials fully complied with results reporting on time (preprint, reported 14 Aug 2026) ([Clinical Leader](https://www.clinicalleader.com/doc/under-half-of-ctis-trials-met-results-reporting-requirements-0001), snippet).
+- 50% of 2025 CDER novel approvals (23/46) were orphan drugs ([RAPS](https://www.raps.org/resource/cder-approved-46-novel-drugs-in-2025-half-for-rar.html), snippet; [FDA report](https://www.fda.gov/media/190705/download), snippet).
+- Few companies use multimedia in eConsent. Reasons given include friction in onboarding multimedia vendors and uncertainty about IRB reaction ([Medrio](https://medrio.com/?p=25352), snippet).
+- A Medable and Jumo Health guide (Oct 2024) urges sponsors to build reusable multimedia libraries across studies and calls animation "the leading form of medical education medium" for their pharma customers ([Medable](https://www.medable.com/knowledge-center/blog-how-to-create-your-own-multimedia-library-for-informed-consent); [Clinical Leader](https://www.clinicalleader.com/doc/how-to-create-your-own-multimedia-library-for-informed-consent-0001), snippets). This is vendor-authored.
+- Signant's Creative Services made custom age-appropriate animations for a Japanese paediatric trial ([Signant](https://signanthealth.com/hubfs/Marketing%20Assets/Case%20Studies/Case%20Study%20-%20Signant%20SmartSignals%20eConsent%20-%20Japanese%20Pediatric%20CNS%20trial.pdf), snippet). This shows demand, and also shows the vendor keeps the work in-house.
+- An 8-minute animated eConsent raised comprehension in a kidney-biopsy RCT ([PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12160941/), snippet).
+- Counter: in a 1,535-person RCT, animated video gave no gain in consent or comprehension over text ([JAMA Netw Open](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2848407), snippet).
+- Counter: reported eConsent adoption ranges from one third of sponsors (Suvoda, 2023) to 50–75%, and the higher figure is called "inflated" ([Suvoda](https://suvoda.com/insights/blog/improving-patient-comprehension-through-econsent), snippet [pre-2024, possibly stale]; [ACRP Jul 2026](https://acrpnet.org/2026/07/06/to-be-labeled-a-success-econsent-must-deliver-on-promises-for-participants-sites-and-sponsors), snippet).
+
+**Who pays.** At sponsors: clinical operations leads, patient engagement and patient recruitment directors, and clinical trial disclosure and transparency managers (lay summaries). Also CRO patient-recruitment groups, eConsent platform vendors subcontracting content (Medable, Signant, Medidata), and rare-disease biotechs (medical affairs, patient advocacy liaison). Inference (confidence: low).
+
+**Rough price points.** No public pricing found for eConsent modules, Jumo Health or lay-summary video. Proxy: vendor-published custom medical animation rates (USD, 2026, list): $5,000/min for simple 2D up to $50,000+/min for high-end 3D ([Mark Studios](https://www.markstudios.com/blog/medical-animation-cost-2026), snippet); $8,000–$18,000/min average for 3D ([Northanimation](https://northanimation.com/3d-medical-animation-cost), snippet). No deal prices seen. Evidence thin.
+
+**Competitors / substitutes.** Jumo Health (specialist, 90+ languages), vendor in-house teams (Signant Creative Services), Medable libraries, general medical animation studios, and text-only consent (shown equivalent in the JAMA RCT).
+
+**Founder fit.** Medium. Anatomy sculpting plus an AI translation and voice pipeline (Claude tools, RAG over protocols) fits. He lacks pharma clinical-ops relationships and MLR/IRB experience.
+
+**Confidence.** Low-medium. The regulatory pull is real. Evidence that animation specifically is needed is contested.
+
+### Gap 2: Validated, rigged, species-level microbe asset library (bacteria, viruses, fungi, parasites)
+
+**Problem.** The big interactive 3D anatomy and biology platforms cover the human body in depth but carry little species-level microbe content. Free models exist (NIH 3D) and stock video exists (SPL), but I found no evidence of a production-ready, rigged, scientifically reviewed microbe library aimed at studios and ed-tech. Inference (confidence: low-medium): studios and ed-tech firms build or buy microbes ad hoc.
+
+**Evidence**
+- Visible Biology lists a "Bacterial Cell (3D model)"; viruses do not appear ([Cengage help](https://help.cengage.com/visible-body/student/visible-body/visible-biology-app.html), snippet).
+- BioDigital's clearest pathogen content is a 2020 COVID-19 collection; no microbiology category found ([BioDigital](https://support.biodigital.com/hc/en-us/articles/360045671593-FAQs-COVID-19-Dashboard), snippet [pre-2024, possibly stale]).
+- Labster has 17 microbiology simulations, focused on lab skills such as Gram stain and isolation ([Labster](https://www.labster.com/blog/popular-microbiology-virtual-lab-simulations), snippet).
+- MedMicroMaps (microbeXR) lists Giardia, coronavirus, Candida and Staph. Its 3D explorer is described as "in the lab" ([MedMicroMaps](https://medmicromaps.com/), snippet). This is an emerging competitor.
+- Consumer apps are shallow: Bacteria 3D targets ages 8–18 ([App Store](https://apps.apple.com/us/app/bacteria-3d/id1168927717), snippet); Viruses Study costs $1.99 ([App Store](https://apps.apple.com/au/app/viruses-study/id6476916032), snippet).
+- 91% of undergraduate microbiology respondents named molecular concepts and spatial visualisation as hardest (cited in a 2025 paper) ([PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12283081/), snippet; the underlying survey is older).
+- Counter: NIH 3D offers CC-BY *E. coli* and *S. aureus* models with lesson plans, plus the NIAID PathogenAR collection ([NIH 3D](https://3d.nih.gov/entries/3DPX-017980); [NIAID](https://www.niaid.nih.gov/research/pathogenar-mobile-app), snippets).
+- Counter: species-level stock animations from SPL are on SuperStock ([anthrax](https://www.superstock.com/asset/animation-bacillus-anthracis-bacteria-which-cause-disease-anthrax-humans-some/4128-V58569589); [bacteriophage](https://www.superstock.com/asset/bacteriophage-infecting-bacterium-animation-bacteriophage-virus-infects-bacteria-injecting-its/4128-V58569166), snippets).
+- Studios already do vaccine and infectious-disease MoA work (Pfizer MenB) ([XVIVO](https://xvivo.com/example-types/infectious-disease-animation), snippet).
+
+**Who pays.** Medical animation studios (asset licensing to cut build time), ed-tech platforms (Visible Body, Labster, BioDigital), pharma vaccine and anti-infective brand and medical-affairs teams, and public-health and AMR campaign agencies. Microbiology and nursing faculty may also buy via institutional licences. Inference (confidence: low). No buyer interviews or budget data found.
+
+**Rough price points.** Stock clip, list: about ₹23,000 per royalty-free Getty bacteria clip ([Getty India](https://www.gettyimages.in/detail/video/animated-bacteriums-stock-footage/473169615), snippet). Envato Elements subscription: $16.50/month ([Envato](https://elements.envato.com/salmonella-CDWTQ58), snippet). VOKA veterinary library assets: "from $500" ([VOKA](https://voka.io/3d-medical-animation-services/veterinary/), snippet). Years not shown. No B2B licensing deal prices found.
+
+**Competitors / substitutes.** NIH 3D and PathogenAR (free), SPL, Getty and Envato stock, CGTrader and Sketchfab models, MedMicroMaps, PDB-101 and Goodsell molecular art ([PDB-101](https://pdb101.rcsb.org/sci-art/goodsell-gallery/coronavirus), snippet), and studios' in-house builds.
+
+**Founder fit.** High. Sculpting, rigging (mGear, custom deformers) and pipeline tools map directly. He would need microbiologist review for validation.
+
+**Confidence.** Low-medium. The supply gap in interactive platforms is visible. Demand and willingness to pay are unproven.
+
+### Gap 3: Medical-legal anatomical animation kits (birth injury, pelvic and urogynaecological, spine), sold to litigation graphics firms and plaintiff/defence firms
+
+**Problem.** Custom courtroom medical animation is priced per minute at high rates and takes 4–8 weeks. Inference (confidence: low-medium): pre-built, accurate anatomy rigs for common injury types would cut cost and time. The founder's female pelvic and urinary sculpts fit obstetric and urogynaecological cases.
+
+**Evidence**
+- 3D medical or accident animation costs $5,000–$20,000/min; complex multi-scene cases $12,000–$25,000+; timeline 4–8 weeks ([Austin Visuals](https://austinvisuals.com/courtroom-animation-cost/); [Austin Visuals PI](https://austinvisuals.com/3d-forensic-animation-personal-injury-litigation/), snippets).
+- A full medical procedure animation costs $8,000–$25,000 ([Prolific Studio](https://prolificstudio.co/blog/legal-animation-cost/), snippet).
+- Professionally produced medical-legal animation sequences cost $5,000–$25,000+ ([Natomy](https://www.natomy.com/blog/medical-legal-illustration), snippet).
+- FRE 707 (machine-generated evidence) was paused on 7 May 2026. A redraft is under study and a mini-conference was set for 15 Oct 2026 ([Redgrave](https://www.redgravellp.com/publication/machine-generated-evidence--rules-advisory-committee-hits-pause-to-consider-significant-revisions-to-proposed-federal-rule-of-evidence-707-addressing-evidence-generated-by-artificial-intelligence); [Law and Forensics](https://www.lawandforensics.com/guides/machine-generated-evidence-rule-707/), snippets). Inference (confidence: low): AI-generated exhibits face uncertain admissibility, which favours human-made, expert-validated anatomy.
+
+**Who pays.** Personal-injury and medical-malpractice trial lawyers (plaintiff and defence), litigation graphics and trial-consulting firms (as asset buyers), and expert witnesses. Inference (confidence: medium) on firm types; no firm-level budget data.
+
+**Rough price points.** USD, vendor list ranges, pages dated 2025–2026: 2D $1,000–$3,000/min; 3D $5,000–$20,000/min; complex cases $12,000–$25,000+. No deal prices seen.
+
+**Competitors / substitutes.** Many litigation animation studios (Austin Visuals, Prolific, Natomy and others), medical illustrators, and static exhibits. Evidence on market concentration is thin.
+
+**Founder fit.** Medium-high on craft. Low on access: selling into US litigation from Cape Town needs a US partner.
+
+**Confidence.** Low. Pricing evidence is fair. Gap evidence (that buyers lack assets) is inferred, not observed.
+
+**Considered but not in top 3.**
+- Dental patient education: crowded and priced at $99–$267/month (Consult-PRO, Spear, BiteFX).
+- Veterinary client education: mostly text (LifeLearn), but IDEXX already offers 3D exam-room content and VisioCare exists. Corporate consolidation does concentrate buyers.
+- India and other emerging markets: large seat counts but no evidence on willingness to pay.
+
+## Load-bearing claims
+
+1. CDER approved 46 novel drugs in 2025; 23 (50%) had orphan drug designation. [RAPS](https://www.raps.org/resource/cder-approved-46-novel-drugs-in-2025-half-for-rar.html); [FDA](https://www.fda.gov/media/190705/download). Snippet only.
+2. In 2024, 26 of 50 CDER novel approvals (52%) were for rare diseases. [RAPS](https://www.raps.org/resource/cder-approved-50-novel-drugs-in-2024-record-numbe.html). Snippet only.
+3. EU CTR Article 37 lay summaries have been mandatory in CTIS for all trials (ongoing and new) since 31 January 2025. [GMP-Compliance](https://www.gmp-compliance.org/gmp-news/good-lay-summary-practice). Snippet only.
+4. A preprint (reported 14 Aug 2026) found fewer than half of EU Phase II–IV trials required to post results on CTIS fully complied on time. [Clinical Leader](https://www.clinicalleader.com/doc/under-half-of-ctis-trials-met-results-reporting-requirements-0001). Snippet only.
+5. HHS notice of 2 June 2026 (FR doc 2026-11015) gives effect to an Oct 2025 Tennessee court vacatur limited to the gender-identity provisions and states that the other provisions of the 2024 Section 1557 rule remain in force. [Federal Register](https://www.federalregister.gov/documents/2026/06/02/2026-11015/notice-of-vacatur-regarding-certain-provisions-of-the-2024-nondiscrimination-in-health-programs-and). Snippet only.
+6. EMA set 23 July 2025 as the EU effective date for ICH E6(R3) Principles and Annex 1. Annex 2 reached Step 4 on 3 June 2026, with EU effective date 15 January 2027. [CASRAI](https://casrai.org/dictionary/term/ich-e6r3). Snippet only.
+7. A JAMA Network Open RCT (2026; 1,535 participants; text vs text plus physician, patient or animated video) found similar consent rates and comprehension across arms, at about 84–87% comprehension. [JAMA Netw Open](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2848407); DOI [10.1001/jamanetworkopen.2026.9347](https://doi.org/10.1001/jamanetworkopen.2026.9347). Snippet only.
+8. In a single-centre RCT of video-assisted eConsent for kidney biopsy (enrolled 2021–2024), an 8-minute animated intervention raised comprehension by about 3 correct answers out of 9, with no significant effect on anxiety or satisfaction. [PMC12160941](https://pmc.ncbi.nlm.nih.gov/articles/PMC12160941/). Snippet only.
+9. Medrio states that few companies use multimedia in eConsent forms, citing vendor-onboarding friction and IRB uncertainty. [Medrio](https://medrio.com/?p=25352). Snippet only; date unknown.
+10. Jumo Health has worked on 200+ trials in 90+ languages across 75+ countries ([ACT](https://www.appliedclinicaltrialsonline.com/view/filling-the-gaps-in-clinical-trial-education-literacy)) and has 89 employees, founded 2008, New Haven CT ([PitchBook](https://pitchbook.com:8443/profiles/company/61966-00)). Snippets only.
+11. Visible Biology's content list includes a "Bacterial Cell (3D model)"; no viruses appear in the listings found. [Cengage help](https://help.cengage.com/visible-body/student/visible-body/visible-biology-app.html). Snippet only.
+12. Labster offers 17 microbiology virtual lab simulations. [Labster](https://www.labster.com/blog/popular-microbiology-virtual-lab-simulations). Snippet only.
+13. Science Photo Library species-level microbe animations (e.g. *Bacillus anthracis*, *Staphylococcus* colony, monkeypox virion, bacteriophage infecting bacterium) are licensed royalty-free via SuperStock. [SuperStock](https://www.superstock.com/asset/animation-bacillus-anthracis-bacteria-which-cause-disease-anthrax-humans-some/4128-V58569589). Snippet only.
+14. Austin Visuals lists detailed 3D medical/accident animation at $5,000–$20,000 per minute and complex multi-scene cases at $12,000–$25,000+. [Austin Visuals](https://austinvisuals.com/courtroom-animation-cost/). Snippet only.
+15. On 7 May 2026 the Advisory Committee on Evidence Rules voted not to advance proposed FRE 707 or its redrafts for republication. [Redgrave](https://www.redgravellp.com/publication/machine-generated-evidence--rules-advisory-committee-hits-pause-to-consider-significant-revisions-to-proposed-federal-rule-of-evidence-707-addressing-evidence-generated-by-artificial-intelligence); [TrueScreen](https://truescreen.io/articles/federal-rule-707-ai-generated-evidence/). Snippets only.
+
+## Where sources disagree
+
+- **Multimedia and comprehension.** The JAMA Netw Open 2026 RCT (n=1,535) found no benefit from animated video ([JAMA](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2848407)). The CJASN kidney-biopsy RCT found a large gain ([PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12160941/)). The Yale VIC multimedia tool improved satisfaction and ease of use rather than comprehension ([AHRQ](https://digital.ahrq.gov/ahrq-funded-projects/patient-centered-virtual-multimedia-interactive-informed-consent-vic)). Inference (confidence: medium): benefit depends on the procedure's complexity and the baseline text quality.
+- **eConsent adoption.** One third of sponsors in a 2023 Suvoda survey ([Suvoda](https://suvoda.com/insights/blog/improving-patient-comprehension-through-econsent)) versus a commonly reported 50–75%, which Florence's Andrea Bastek called likely inflated ([ACRP 2026](https://acrpnet.org/2026/07/06/to-be-labeled-a-success-econsent-must-deliver-on-promises-for-participants-sites-and-sponsors)).
+- **Jumo Health language count.** 90+ languages ([ACT](https://www.appliedclinicaltrialsonline.com/view/filling-the-gaps-in-clinical-trial-education-literacy)) versus 120+ in another profile ([Healthcare Tech Outlook](https://www.healthcaretechoutlook.com/jumo-health)).
+- **India MBBS seats 2025–26.** 1,29,026 in the final NMC matrix ([Medical Dialogues](https://medicaldialogues.in/amp/news/education/altogether-129026-mbbs-seats-available-for-2025-26-nmc-releases-final-seat-matrix-details-160748)); 1,28,976 per the Health Ministry in Parliament ([Medical Dialogues](https://medicaldialogues.in/amp/news/education/128976-mbbs-68175-pg-medical-seats-in-india-highest-in-karnataka-health-ministry-gives-breakup-in-parliament-167906)); 1,37,600 per Tribune ([Tribune](https://www.tribuneindia.com/news/india/panel-approves-10650-mbbs-seats-for-2025-26)).
+- **Veterinary corporate share.** About 25% of primary-care and 75% of specialty and emergency practices (Frontiers 2025, [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12106480/)) versus "between 25 percent and almost 50 percent of all practices" in other sources in the same search ([AAHA](https://www.aaha.org/trends-magazine/publications/how-to-compete-in-the-veterinary-corporate-consolidation-race/), attribution from snippet uncertain).
+- **Consult-PRO pricing.** CA$150/feature/month ([Capterra](https://www.capterra.com/p/165580/Consult-PRO-Suite/)) versus $149 or $198/month after promotion on the vendor site ([Consult-PRO](https://consult-pro.com/chairside-premium.html)).
+- **Litigation animation pricing.** Ranges vary about tenfold across vendors ([Austin Visuals](https://austinvisuals.com/courtroom-animation-cost/); [Prolific](https://prolificstudio.co/blog/legal-animation-cost/); [Natomy](https://www.natomy.com/blog/medical-legal-illustration)).
+- **FRE 707 earliest effective date.** No earlier than 1 Dec 2029 per one source, versus a 2027 date in pre-May-2026 sources (now outdated) ([Regulayer](https://regulayer.com/laws/federal-rule-of-evidence-707-machine-generated-evidence); [TrueScreen](https://truescreen.io/articles/federal-rule-707-ai-generated-evidence/)).
+- **FDA and ICH E6(R3).** One source says FDA posted final E6(R3) guidance on 8 Sept 2025. An older Medrio post says FDA had not set a date ([Medrio](https://medrio.com/blog/ich-e6-r3/); [IntuitionLabs](https://intuitionlabs.ai/articles/ich-e6-r3-gcp-guidelines-2026)).
+- **HHS Section 504 web deadline.** Sources conflict on whether HHS matched DOJ's one-year ADA Title II extension ([BarrierBreak](https://www.barrierbreak.com/ada-title-ii-hhs-accessibility-deadline-extensions/)).
+
+## What I could not find
+
+- **Tool limits.** WebFetch failed on every host tried (DNS not allowed in this session): pmc.ncbi.nlm.nih.gov, jamanetwork.com, 3d.nih.gov, raps.org, labster.com, federalregister.gov, hhs.gov, ecfr.gov, signanthealth.com, visiblebody.com. The shared web-search cap was reached after about 33 searches. No page was read in full.
+- **Africa including South Africa.** Nothing on medical school numbers, HPCSA, cadaver availability, local pharma or pricing power. Not searched.
+- **LATAM and Southeast Asia.** Not searched.
+- **India.** Nothing on NMC curriculum rules on 3D or digital anatomy, ed-tech players' 3D apps, or prices and willingness to pay.
+- **Rare disease.** No data on NORD or EURORDIS budgets, advocacy-group spend on disease-awareness animation, or orphan-drug MoD animation budgets.
+- **Pricing.** None found for eConsent multimedia modules, Jumo Health, lay-summary video, or Science Photo Library clips. BiteFX price not shown.
+- **Microbiology.** No count of Sketchfab or stock microbe assets; no data on how many are rigged or scientifically reviewed; no data on nursing or medical microbiology enrolments; nothing on phage or microbiome biotech animation spend; nothing on AMR campaign budgets.
+- **Medical-legal.** Did not verify the status of FRE 107 (illustrative aids), which I believe took effect in December 2024 but did not confirm. No data on the number of litigation animation firms or market size.
+- **Veterinary.** Did not verify Mars (VCA/Banfield/BluePearl) or IVC Evidensia practice counts. No pricing for IDEXX Pet Health Network 3D or VisioCare.
+- **Other regulation.** EU MDR patient-information requirements not checked. Executive Order 14224 (English as official language, March 2025) and its effect on federal LEP guidance: saw only a tracker title ([Access Multilingual](https://accessmultilingual.com/resources/language-access-toolkit/federal-language-access-tracker)).
+- **H2.** No evidence on "No AI" contract clauses or studio capacity.
+
+## Sources
+
+All items were seen as search-result snippets only (WebFetch blocked). Dates are as shown in the snippet or URL; "date n/s" means not shown.
+
+1. Notice of Vacatur Regarding Certain Provisions of the 2024 Nondiscrimination in Health Programs and Activities Final Rule. Federal Register / HHS. 2 June 2026. https://www.federalregister.gov/documents/2026/06/02/2026-11015/notice-of-vacatur-regarding-certain-provisions-of-the-2024-nondiscrimination-in-health-programs-and
+2. Nondiscrimination in Health Programs and Activities (final rule). Federal Register / HHS. 6 May 2024. https://www.federalregister.gov/documents/2024/05/06/2024-08711/nondiscrimination-in-health-programs-and-activities
+3. Section 1557 Translation Vendor Criteria for Health Plans. Smartling. date n/s (2026). https://www.smartling.com/questions/section-1557-translation-vendor-requirements
+4. HHS Vacates ACA Section 1557 Gender Identity Rule. NFP. date n/s (2026). https://www.nfp.com/insights/hhs-vacates-rule-prohibiting-gender-identity-discrimination/
+5. eCFR 45 CFR Part 92. National Archives. current. https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-A/part-92
+6. Federal Language Access Tracker: What Changed After Executive Order 14224. Access Multilingual. date n/s. https://accessmultilingual.com/resources/language-access-toolkit/federal-language-access-tracker
+7. Good Lay Summary Practice. GMP-Compliance (ECA). date n/s. https://www.gmp-compliance.org/gmp-news/good-lay-summary-practice
+8. Under half of CTIS trials met results reporting requirements. Clinical Leader. 14 Aug 2026. https://www.clinicalleader.com/doc/under-half-of-ctis-trials-met-results-reporting-requirements-0001
+9. ICH E6(R3) dictionary entry. CASRAI. date n/s (2026). https://casrai.org/dictionary/term/ich-e6r3
+10. International council finalizes modernized global GCP guideline. Sidley Austin. Feb 2025. https://www.sidley.com/en/insights/newsupdates/2025/02/international-council-finalizes-modernized-global-good-clinical-practice-guideline
+11. ICH E6(R3) Explained. IntuitionLabs. 2026. https://intuitionlabs.ai/articles/ich-e6-r3-gcp-guidelines-2026
+12. ICH E6(R3) Explained: Insights for European Clinical Trials. Medrio. date n/s. https://medrio.com/blog/ich-e6-r3/
+13. Use of Electronic Informed Consent in Clinical Trials (announcement). HHS OHRP. Dec 2016 [pre-2024, possibly stale]. https://www.hhs.gov/ohrp/news/announcements-and-news-releases/2016/use-electronic-informed-consent-clinical-trials/index.html
+14. Electronic Systems, Electronic Records, and Electronic Signatures in Clinical Investigations: Q&A. FDA. Oct 2024. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-systems-electronic-records-and-electronic-signatures-clinical-investigations-questions
+15. Federal Register notice 2024-22562 (via Justia). 2 Oct 2024. https://regulations.justia.com/regulations/fedreg/2024/10/02/2024-22562.html
+16. Extension of Compliance Dates … Web Information and Services of State and Local Government Entities. Federal Register / DOJ. 20 Apr 2026. https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web
+17. DOJ Extends ADA Title II Digital Accessibility Deadlines by One Year. Duane Morris. Apr 2026. https://www.duanemorris.com/alerts/doj_extends_ada_title_ii_digital_accessibility_deadlines_one_year_0426.html
+18. 2027 Web Accessibility Compliance Deadlines. AudioEye. 2026. https://www.audioeye.com/post/2027-accessibility-compliance-deadlines/
+19. ADA Title II & HHS Accessibility Deadline Extensions. BarrierBreak. 2026. https://www.barrierbreak.com/ada-title-ii-hhs-accessibility-deadline-extensions/
+20. A new milestone for accessibility – the European Accessibility Act now applies. Travers Smith. Jun 2025. https://www.traverssmith.com/knowledge/knowledge-container/a-new-milestone-for-accessibility-the-european-accessibility-act-now-applies/
+21. Audiovisual Augmentation of Electronic Consent to Improve Consent Rates and Comprehension: An RCT. JAMA Network Open. 2026. https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2848407 ; https://doi.org/10.1001/jamanetworkopen.2026.9347
+22. A Randomized Controlled Trial of Video-Assisted Electronic Consent versus Standard Consent for Percutaneous Kidney Biopsy. CJASN via PMC. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12160941/
+23. eConsent vs. Traditional Consent Among Prospective Biobank Participants: A Randomized Trial. medRxiv/PubMed. 2025. https://pubmed.ncbi.nlm.nih.gov/41282898/
+24. Patient-Centered Virtual Multimedia Interactive Informed Consent (VIC). AHRQ. date n/s. https://digital.ahrq.gov/ahrq-funded-projects/patient-centered-virtual-multimedia-interactive-informed-consent-vic
+25. Medidata Consent product page. Medidata. date n/s. https://www.medidata.com/en/products/econsent
+26. Medidata adds video eConsent. Applied Clinical Trials. Aug 2021 [pre-2024, possibly stale]. https://www.appliedclinicaltrialsonline.com/view/medidata-adds-video-econsent
+27. Case Study: Signant SmartSignals eConsent – Japanese Pediatric CNS trial. Signant Health. date n/s. https://signanthealth.com/hubfs/Marketing%20Assets/Case%20Studies/Case%20Study%20-%20Signant%20SmartSignals%20eConsent%20-%20Japanese%20Pediatric%20CNS%20trial.pdf
+28. Does Multimedia Have an Impact on Clinical Trial Success? Medrio. date n/s. https://medrio.com/?p=25352
+29. How to create your own multimedia library for informed consent. Medable (with Jumo Health authors). 2024. https://www.medable.com/knowledge-center/blog-how-to-create-your-own-multimedia-library-for-informed-consent
+30. How to create your own multimedia library for informed consent. Clinical Leader. 31 Oct 2024. https://www.clinicalleader.com/doc/how-to-create-your-own-multimedia-library-for-informed-consent-0001
+31. CORE Catalog. Jumo Health. date n/s. https://jumohealth.com/core_catalog_page
+32. Filling the Gaps in Clinical Trial Education, Literacy. Applied Clinical Trials. date n/s (c. 2025). https://www.appliedclinicaltrialsonline.com/view/filling-the-gaps-in-clinical-trial-education-literacy
+33. Jumo Health company profile. PitchBook. 2026. https://pitchbook.com:8443/profiles/company/61966-00
+34. Jumo Health. Healthcare Tech Outlook. date n/s. https://www.healthcaretechoutlook.com/jumo-health
+35. Improving patient comprehension through eConsent. Suvoda. c. Oct 2023 [pre-2024, possibly stale]. https://suvoda.com/insights/blog/improving-patient-comprehension-through-econsent
+36. To be Labeled a Success, eConsent Must Deliver on Promises… ACRP. 6 Jul 2026. https://acrpnet.org/2026/07/06/to-be-labeled-a-success-econsent-must-deliver-on-promises-for-participants-sites-and-sponsors
+37. CDER approved 46 novel drugs in 2025, half for rare diseases. RAPS. Jan 2026. https://www.raps.org/resource/cder-approved-46-novel-drugs-in-2025-half-for-rar.html
+38. New Drug Therapy Approvals 2025 (report). FDA CDER. Jan 2026. https://www.fda.gov/media/190705/download
+39. CDER approved 50 novel drugs in 2024. RAPS. Jan 2025. https://www.raps.org/resource/cder-approved-50-novel-drugs-in-2024-record-numbe.html
+40. Visible Biology app (help page). Cengage / Visible Body. date n/s. https://help.cengage.com/visible-body/student/visible-body/visible-biology-app.html
+41. Visible Biology. Apple App Store. date n/s. https://apps.apple.com/us/app/-/id6449228626
+42. FAQs: COVID-19 Dashboard. BioDigital. Mar 2020 [pre-2024, possibly stale]. https://support.biodigital.com/hc/en-us/articles/360045671593-FAQs-COVID-19-Dashboard
+43. Our Most Popular Microbiology Virtual Lab Simulations. Labster. date n/s. https://www.labster.com/blog/popular-microbiology-virtual-lab-simulations
+44. MedMicroMaps. MedMicroMaps. 2026. https://medmicromaps.com/
+45. Bacteria 3D. Apple App Store (MOZAIK Education). date n/s. https://apps.apple.com/us/app/bacteria-3d/id1168927717
+46. Viruses Study. Apple App Store (ProgramLab). date n/s. https://apps.apple.com/au/app/viruses-study/id6476916032
+47. NIH 3D entry 3DPX-017980 (E. coli model). NIH. date n/s. https://3d.nih.gov/entries/3DPX-017980
+48. Pathogens in Augmented Reality (PathogenAR). NIAID. date n/s. https://www.niaid.nih.gov/research/pathogenar-mobile-app
+49. Immersive virtual reality in second-level education… PMC. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12283081/
+50. SPL animation: Bacillus anthracis bacteria. SuperStock. date n/s. https://www.superstock.com/asset/animation-bacillus-anthracis-bacteria-which-cause-disease-anthrax-humans-some/4128-V58569589
+51. SPL animation: Staphylococcus colony. SuperStock. date n/s. https://www.superstock.com/asset/animation-colony-staphylococcus-bacteria-spherical-gram-positive-bacteria-form-important/4128-V58569568
+52. SPL animation: Bacteriophage infecting bacterium. SuperStock. date n/s. https://www.superstock.com/asset/bacteriophage-infecting-bacterium-animation-bacteriophage-virus-infects-bacteria-injecting-its/4128-V58569166
+53. Animated bacteriums – HD stock video. Getty Images India. date n/s. https://www.gettyimages.in/detail/video/animated-bacteriums-stock-footage/473169615
+54. Salmonella (stock). Envato Elements. date n/s. https://elements.envato.com/salmonella-CDWTQ58
+55. Blue bacteria model pack. CGTrader. date n/s. https://www.cgtrader.com/3d-models/science/medical/blue-bacteria-model-pack
+56. Infectious disease animation. XVIVO. date n/s. https://xvivo.com/example-types/infectious-disease-animation
+57. Coronavirus (Molecular Landscapes, Goodsell). RCSB PDB-101. 2020 [pre-2024, possibly stale]. https://pdb101.rcsb.org/sci-art/goodsell-gallery/coronavirus
+58. Consult-PRO Chairside Premium. Consult-PRO. date n/s. https://consult-pro.com/chairside-premium.html
+59. Consult-PRO Chairside Suite. Consult-PRO. date n/s. https://consult-pro.com/chairside-suite.html
+60. Consult-PRO Suite pricing. Capterra. 2026. https://www.capterra.com/p/165580/Consult-PRO-Suite/
+61. Best Dental Video Marketing Companies (2026). aituber.app. 2026. https://aituber.app/blog/best-dental-video-marketing-companies/
+62. BiteFX Membership Levels. BiteFX. date n/s. https://bitefx.com/products.php
+63. HPI: more new dentists affiliated with DSOs. ADA News. Nov 2025. https://adanews.ada.org/new-dentist/2025/november/hpi-more-new-dentists-affiliated-with-dsos/
+64. 16% of US dentists affiliated with a DSO: state-by-state. Becker's Dental. date n/s. https://www.beckersdental.com/?p=19062
+65. ClientEd. LifeLearn. date n/s. https://www.lifelearn.com/products/client-education-resource/
+66. ClientEd Monthly. LifeLearn store. date n/s. https://store.lifelearn.com/cliented-monthly
+67. Client Communications (Pet Health Network 3D). IDEXX Canada. date n/s. https://ca.idexx.com/en-ca/veterinary/software-services/client-communications/
+68. VisioCare Consult. Apple App Store. date n/s. https://apps.apple.com/us/app/id540348034
+69. Veterinary 3D medical animation. VOKA. date n/s. https://voka.io/3d-medical-animation-services/veterinary/
+70. Making the case for a resurgent U.S. independent veterinary practice segment: a SWOT analysis. Frontiers in Veterinary Science via PMC. 2025. https://pmc.ncbi.nlm.nih.gov/articles/PMC12106480/
+71. How to compete in the veterinary corporate consolidation race. AAHA. date n/s. https://www.aaha.org/trends-magazine/publications/how-to-compete-in-the-veterinary-corporate-consolidation-race/
+72. Altogether 1,29,026 MBBS seats available for 2025-26: NMC releases final seat matrix. Medical Dialogues. Dec 2025. https://medicaldialogues.in/amp/news/education/altogether-129026-mbbs-seats-available-for-2025-26-nmc-releases-final-seat-matrix-details-160748
+73. 1,28,976 MBBS, 68,175 PG medical seats in India… Medical Dialogues. date n/s (2025–26). https://medicaldialogues.in/amp/news/education/128976-mbbs-68175-pg-medical-seats-in-india-highest-in-karnataka-health-ministry-gives-breakup-in-parliament-167906
+74. Panel approves 10,650 MBBS seats for 2025-26. Tribune India. 2025. https://www.tribuneindia.com/news/india/panel-approves-10650-mbbs-seats-for-2025-26
+75. What Will Be The Courtroom Animation Cost? Austin Visuals. date n/s (c. 2025). https://austinvisuals.com/courtroom-animation-cost/
+76. 3D Forensic Animation Services for Personal Injury & Litigation Cases. Austin Visuals. date n/s. https://austinvisuals.com/3d-forensic-animation-personal-injury-litigation/
+77. What is the Cost of Legal Animations in 2025? Prolific Studio. 2025. https://prolificstudio.co/blog/legal-animation-cost/
+78. Medical Legal Illustration: How Visual Evidence Wins Cases. Natomy. date n/s. https://www.natomy.com/blog/medical-legal-illustration
+79. How Much Does Medical Animation Cost in 2026? Mark Studios. 2026. https://www.markstudios.com/blog/medical-animation-cost-2026
+80. 3D Medical Animation Cost [2026 MoA & Device Rates]. North Animation. 2026. https://northanimation.com/3d-medical-animation-cost
+81. Machine-Generated Evidence: Rules Advisory Committee Hits Pause… Redgrave LLP. 2026. https://www.redgravellp.com/publication/machine-generated-evidence--rules-advisory-committee-hits-pause-to-consider-significant-revisions-to-proposed-federal-rule-of-evidence-707-addressing-evidence-generated-by-artificial-intelligence
+82. Machine-Generated Evidence and Proposed Rule 707. Law and Forensics. 2026. https://www.lawandforensics.com/guides/machine-generated-evidence-rule-707/
+83. FRE 707 and AI-Generated Evidence: Where the Proposal Stands. TrueScreen. 2026. https://truescreen.io/articles/federal-rule-707-ai-generated-evidence/
+84. Proposed Federal Rule of Evidence 707: still proposed, and widely misreported. Regulayer. 2026. https://regulayer.com/laws/federal-rule-of-evidence-707-machine-generated-evidence
+
+## Independent fact-check
+
+18 checked: 0 verified, 0 partial, 18 unverified, 0 contradicted, 0 fabricated-url.
+
+Method and limits (7 Nov 2026). The checker could not open any source. WebFetch failed with DNS blocked on raps.org, gmp-compliance.org, clinicalleader.com, federalregister.gov and casrai.org. The session's network rules said to stop trying other hosts after that. WebSearch returned "budget used up" (the shared 200-call cap) on the first query. So no claim below was confirmed or refuted against its source. "Unverified" here means "not checked", not "suspect". The notes add (a) internal-consistency problems found by reading the report and (b) where the claim fits or clashes with the checker's own background knowledge (training data to mid-2026). That knowledge is not a citation. A fetch-level re-check is still needed before any of these numbers go into a deliverable.
+
+| # | Claim (short) | Status | Note / corrected value | Source checked (URL) |
+|---|---|---|---|---|
+| 1 | CDER 2025: 46 novel approvals, 23 (50%) orphan | UNVERIFIED | Fetch blocked. Fits the RAPS headline wording in the URL slug ("46 novel drugs in 2025, half for rar[e]"). The FDA report URL (fda.gov/media/190705) was not tried. | https://www.raps.org/resource/cder-approved-46-novel-drugs-in-2025-half-for-rar.html |
+| 2 | CDER 2024: 26 of 50 (52%) rare disease | UNVERIFIED | Fetch blocked. Fits background knowledge (FDA's 2024 report: 50 novel approvals, 26 orphan, 52%). Scope note: the FDA metric is orphan designation, not "for rare diseases"; the report uses both phrasings. | https://www.raps.org/resource/cder-approved-50-novel-drugs-in-2024-record-numbe.html |
+| 3 | EU CTR Art. 37 lay summaries mandatory in CTIS for all trials since 31 Jan 2025 | UNVERIFIED | Fetch blocked. Broadly fits background knowledge: the CTR 3-year transition ended on 30/31 Jan 2025, so ongoing trials had to move to CTIS. Precision: lay summaries already applied to CTR trials from 31 Jan 2022. 31 Jan 2025 extended the duty to transitioned legacy trials. It is not the start date of the obligation. | https://www.gmp-compliance.org/gmp-news/good-lay-summary-practice |
+| 4 | Preprint: under half of Phase II–IV CTIS trials met results reporting on time (14 Aug 2026) | UNVERIFIED | Fetch blocked; after the checker's knowledge cutoff. Scope flag: the claim is about results reporting in general, not lay summaries. In H3 and Gap 1 the report reads it as lay-summary non-compliance. That is an inference. | https://www.clinicalleader.com/doc/under-half-of-ctis-trials-met-results-reporting-requirements-0001 |
+| 5 | HHS 2 Jun 2026 notice (FR 2026-11015) vacates only gender-identity provisions; rest of 1557 rule in force | UNVERIFIED | Fetch blocked; after cutoff. The FR document number format and date in the URL are self-consistent. The detail "Oct 2025 Tennessee court vacatur" in claim 5 does not appear in the Summary and has no source quote. | https://www.federalregister.gov/documents/2026/06/02/2026-11015/notice-of-vacatur-regarding-certain-provisions-of-the-2024-nondiscrimination-in-health-programs-and |
+| 6 | ICH E6(R3) EU effective 23 Jul 2025; Annex 2 Step 4 on 3 Jun 2026, EU effective 15 Jan 2027 | UNVERIFIED | Fetch blocked. The 23 Jul 2025 date fits background knowledge. The Annex 2 dates could not be checked. CASRAI is a secondary dictionary site, not EMA or ICH; a primary source (ema.europa.eu or ich.org) is needed. | https://casrai.org/dictionary/term/ich-e6r3 |
+| 7 | JAMA Netw Open 2026 RCT, n=1,535, no gain from animated video (~84–87% comprehension) | UNVERIFIED | Not fetched (the host was blocked for the original author too); after cutoff. This is the single most decision-relevant claim for Gap 1. Before using the paper, open the DOI (10.1001/jamanetworkopen.2026.9347) and confirm n, arms, endpoints and the 84–87% figure. | https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2848407 |
+| 8 | Kidney-biopsy RCT: 8-min animated eConsent, about +3/9 correct answers | UNVERIFIED | Not fetched. A gain of 3 out of 9 is large. Check whether that is the between-arm difference or the pre/post change within the intervention arm. | https://pmc.ncbi.nlm.nih.gov/articles/PMC12160941/ |
+| 9 | Medrio: few companies use multimedia in eConsent | UNVERIFIED | Not fetched. Date unknown. The report uses it as current evidence (H3, Gap 1). It may be pre-2024 and should be treated as possibly stale. It is also vendor marketing. | https://medrio.com/?p=25352 |
+| 10 | Jumo Health: 200+ trials, 90+ languages, 75+ countries; 89 employees | UNVERIFIED | Not fetched. The report itself notes a conflict (120+ languages elsewhere). The PitchBook URL uses an unusual ":8443" port; it may not resolve publicly. Headcount from PitchBook is an estimate. | https://www.appliedclinicaltrialsonline.com/view/filling-the-gaps-in-clinical-trial-education-literacy ; https://pitchbook.com:8443/profiles/company/61966-00 |
+| 11 | Visible Biology lists one bacterial cell, no viruses | UNVERIFIED | Not fetched. "No viruses appear in the listings found" is based on the absence of a result in a search snippet. That is weak evidence. A snippet does not show the full content list. | https://help.cengage.com/visible-body/student/visible-body/visible-biology-app.html |
+| 12 | Labster: 17 microbiology simulations | UNVERIFIED | Not fetched. The blog title says "most popular" simulations, so 17 may be a curated list, not the full catalogue (which could be larger). | https://www.labster.com/blog/popular-microbiology-virtual-lab-simulations |
+| 13 | SPL species-level microbe animations sold via SuperStock | UNVERIFIED | Not fetched. Plausible: SPL does distribute through agencies. | https://www.superstock.com/asset/animation-bacillus-anthracis-bacteria-which-cause-disease-anthrax-humans-some/4128-V58569589 |
+| 14 | Austin Visuals: 3D medical/accident animation $5k–$20k/min; complex $12k–$25k+ | UNVERIFIED | Not fetched. Vendor list prices, not deal prices. | https://austinvisuals.com/courtroom-animation-cost/ |
+| 15 | 7 May 2026: Advisory Committee voted not to advance FRE 707 | UNVERIFIED | Not fetched. The claim wording varies inside the report: "paused" / "not to advance ... for republication" / "redraft under study". "Not law" is consistent with background knowledge: FRE 707 was published for comment in Aug 2025 and was not adopted. | https://www.redgravellp.com/publication/machine-generated-evidence--rules-advisory-committee-hits-pause-to-consider-significant-revisions-to-proposed-federal-rule-of-evidence-707-addressing-evidence-generated-by-artificial-intelligence |
+| 16 | Gap 1/H2 price proxy: Mark Studios $5k–$50k+/min | UNVERIFIED | Not fetched. Vendor SEO blog. The range is about tenfold, so it is a weak anchor for pricing. | https://www.markstudios.com/blog/medical-animation-cost-2026 |
+| 17 | Gap 1/H2 price proxy: Northanimation $8k–$18k/min average | UNVERIFIED | Not fetched. Vendor SEO blog. | https://northanimation.com/3d-medical-animation-cost |
+| 18 | Gap 3: 4–8 week courtroom animation timeline; Prolific $8k–$25k; Natomy $5k–$25k+ | UNVERIFIED | Not fetched. Internal inconsistency: Gap 3's price-point line gives "2D $1,000–$3,000/min" with no citation anywhere in the report. | https://austinvisuals.com/3d-forensic-animation-personal-injury-litigation/ ; https://prolificstudio.co/blog/legal-animation-cost/ |
+
+Other flags from reading the report (no fetch needed):
+- **Possible misattribution.** The "91% of undergraduate microbiology respondents" statistic (H4, Gap 2) is cited to PMC12283081. The report's own source list titles that paper "Immersive virtual reality in second-level education", which is secondary school. An undergraduate microbiology survey statistic inside a secondary-school VR paper is plausible as a citation, but the underlying survey is older and unnamed. Treat it as secondhand and possibly pre-2024.
+- **Uncited number.** "Considered but not in top 3" gives dental pricing as "$99–$267/month". The cited figures elsewhere are $149–$198 (Consult-PRO) and $267 (Spear, via a third-party blog). The $99 (presumably BiteFX) has no source, and the report says "BiteFX price not shown".
+- **Stale or weak sources used as current.** Suvoda (2023), BioDigital COVID set (2020) and PDB-101 (2020) are labelled stale, which is correct. The Medrio eConsent post (undated) is not labelled stale but is used as current-state evidence.
+- **Absence-of-evidence used as evidence.** Gap 2's supply gap rests on what snippets did *not* show (no viruses in Visible Biology, no microbiology category in BioDigital). Snippets cannot establish absence.
+- **Inference presented as fact.** The Summary says "fewer than half of trials comply" next to the lay-summary mandate (H3). The source is about results reporting in general.
+
+### Implications
+
+- **Overall.** Nothing in this report has been checked at fetch level, by either the author or this checker. Every verdict rests on search snippets. Confidence ratings should be read one notch lower until a session with fetch access re-checks claims 1, 3, 4, 5 and 7 at minimum.
+- **Gap 1 (trial-participant animation kits): weakened slightly.** The regulatory "pull" claims (3, 5, 6) are consistent with background knowledge where they fall before mid-2026. But the compliance-gap claim (4) is about results reporting, not lay summaries, so it overstates the lay-summary gap. The demand claim from Medrio (9) is undated vendor content. The decisive counter-evidence (JAMA RCT, claim 7) is unverified, and it cuts against the gap. If it holds, "animation specifically" stays contested, and the H3 verdict "partly supported" is about right, perhaps generous. The current verdict does not need to change. It should not be upgraded.
+- **Gap 2 (microbe asset library): weakened moderately on the supply-gap evidence.** The gap rests on absence claims drawn from snippets (11, 12) and a possibly misattributed, secondhand 91% statistic. Labster's 17 may be a "popular" subset, not the full catalogue. The counter-evidence (NIH 3D CC-BY models, SPL stock, claim 13) is plausible. The H4 verdict "partly supported" is the upper bound of what the evidence supports. "Insufficient evidence on demand" would be the more defensible verdict.
+- **Gap 3 (medical-legal kits): unchanged, low.** The pricing comes only from vendor SEO pages (14, 16–18) and includes one uncited range (2D $1k–$3k/min). The report already rates its confidence as low. The FRE 707 status (15) fits background knowledge that the rule is not law. The inference that AI-exhibit uncertainty favours human-made assets is the author's own inference, not something a source says.
+- **H1/H2 verdicts ("insufficient evidence" / "not assessed").** These fit the evidence. No change.
